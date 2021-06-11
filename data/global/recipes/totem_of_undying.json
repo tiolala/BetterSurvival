@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:experience_bottle"
+        },
+        {
+            "item": "minecraft:golden_apple"
+        },
+        {
+            "item": "minecraft:dead_bush"
+        },
+        {
+            "item": "minecraft:ender_eye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+    }
+}

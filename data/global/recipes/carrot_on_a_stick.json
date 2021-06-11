@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " gp",
+        " sg",
+        "s  "
+    ],
+    "key": {
+        "p": {
+            "item": "minecraft:ender_pearl"
+        },
+        "g": {
+            "item": "minecraft:gold_nugget"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:carrot_on_a_stick",
+        "count": 1
+    }
+}

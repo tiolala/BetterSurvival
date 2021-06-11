@@ -1,0 +1,6 @@
+#clock
+
+execute if score Hour tick matches 10.. if score Min tick matches 10.. run title @s actionbar ["",{"text":"A Hora é:","bold":true,"color":"gold"},{"text":" "},{"score":{"name":"Hour","objective":"tick"}},{"text":":"},{"score":{"name":"Min","objective":"tick"}}]
+execute if score Hour tick matches 0..9 if score Min tick matches 10.. run title @s actionbar ["",{"text":"A Hora é:","bold":true,"color":"gold"},{"text":" 0"},{"score":{"name":"Hour","objective":"tick"}},{"text":":"},{"score":{"name":"Min","objective":"tick"}}]
+execute if score Hour tick matches 10.. if score Min tick matches 0..9 run title @s actionbar ["",{"text":"A Hora é:","bold":true,"color":"gold"},{"text":" "},{"score":{"name":"Hour","objective":"tick"}},{"text":":0"},{"score":{"name":"Min","objective":"tick"}}]
+execute if score Hour tick matches 0..9 if score Min tick matches 0..9 run title @a actionbar ["",{"text":"A Hora é:","bold":true,"color":"gold"},{"text":" 0"},{"score":{"name":"Hour","objective":"tick"}},{"text":":0"},{"score":{"name":"Min","objective":"tick"}}]
