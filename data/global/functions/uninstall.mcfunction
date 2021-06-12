@@ -5,6 +5,12 @@ scoreboard objectives remove count
 scoreboard objectives remove hurttime
 scoreboard objectives remove idunico
 scoreboard objectives remove temp
+scoreboard objectives remove jump
+scoreboard objectives remove config
+scoreboard objectives remove rand
+scoreboard objectives remove tick
+scoreboard objectives remove timer
+scoreboard objectives remove pcount
 
 scoreboard objectives remove xcord
 scoreboard objectives remove ycord
@@ -27,7 +33,7 @@ scoreboard objectives remove k_iron_golem
 scoreboard objectives remove k_pillager
 scoreboard objectives remove k_vindicator
 scoreboard objectives remove k_ravager
-scoreboard objectives remove k_polar_bear
+scoreboard objectives remove k_pollar_bear
 scoreboard objectives remove k_wither
 scoreboard objectives remove k_shulker
 scoreboard objectives remove k_drowned
@@ -38,3 +44,4 @@ scoreboard objectives remove k_rabbit
 scoreboard objectives remove k_bee
 scoreboard objectives remove k_piglin
 scoreboard objectives remove k_evoker
+scoreboard objectives remove k_ender_dg
