@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "That was easy",
+            "color": "black"
+        },
+        "description": {
+            "text": "Kill a weak mob"
+        },
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Weak Killed": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#mobs:ht2"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mobs:reward/killht2",
+        "loot":[
+            "mobs:ht2"
+        ] 
+    }
+}
