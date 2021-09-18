@@ -6,8 +6,8 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b},{id:"mine
 execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}],SelectedItem:{id:"minecraft:phantom_membrane"}}] run function pass:elytra
 
 #Trident
-execute if entity @s[nbt={Inventory:[{id:"minecraft:trident",Slot:-106b}]}] run function pass:trident
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident"}}] run function pass:trident
+#execute if entity @s[nbt={Inventory:[{id:"minecraft:trident",Slot:-106b}]}] run function pass:trident
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident"}}] run function pass:trident
 
 #Torch
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:torch"}]}] if score Pass_torch config matches 1 run function pass:torch
@@ -23,7 +23,7 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:golden_helmet",Slot:103b},{i
 execute if block ~ ~-1 ~ minecraft:melon run setblock ~ ~-1 ~ air destroy
 
 #Grass path
-execute if block ~ ~ ~ minecraft:grass_path run effect give @s speed 1 0
+execute if block ~ ~ ~ minecraft:dirt_path run effect give @s speed 1 0
 
 #Fire arrows
 execute as @e[type=arrow,nbt=!{Fire:-1s},nbt=!{Fire:0s},nbt={inGround:1b}] at @s run function pass:fire_arrow

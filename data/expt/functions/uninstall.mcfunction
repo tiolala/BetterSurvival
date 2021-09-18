@@ -1,6 +1,6 @@
 #uninstall
 
-scoreboard objectives remove xpbt_timer
+#scoreboard objectives remove xpbt_timer
 
 scoreboard objectives remove exp_sword
 scoreboard objectives remove exp_axe
@@ -21,3 +21,6 @@ scoreboard objectives remove lvl_bow
 scoreboard objectives remove lvl_crossbow
 
 scoreboard players reset Expt-act config
+
+tag @e remove holdingsword
+tag @e remove holdingaxe

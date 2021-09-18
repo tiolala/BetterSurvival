@@ -15,6 +15,8 @@ scoreboard objectives remove pcount
 scoreboard objectives remove xcord
 scoreboard objectives remove ycord
 scoreboard objectives remove zcord
+scoreboard objectives remove r0cord
+scoreboard objectives remove r1cord
 
 scoreboard objectives remove snktime
 scoreboard objectives remove dmgdlt
@@ -44,3 +46,5 @@ scoreboard objectives remove c_expb
 #scoreboard objectives remove k_bee
 #scoreboard objectives remove k_piglin
 #scoreboard objectives remove k_evoker
+
+tag @e remove one_time

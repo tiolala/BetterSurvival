@@ -12,10 +12,13 @@ scoreboard objectives add rand dummy
 scoreboard objectives add xcord dummy
 scoreboard objectives add ycord dummy
 scoreboard objectives add zcord dummy
+scoreboard objectives add r0cord dummy
+scoreboard objectives add r1cord dummy
 
 scoreboard objectives add snktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add dmgdlt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add shot_bow minecraft.used:minecraft.bow
+scoreboard objectives add shot_cb minecraft.used:minecraft.crossbow
 scoreboard objectives add carrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add jump minecraft.custom:minecraft.jump
 #scoreboard objectives add villagetrade minecraft.custom:minecraft.traded_with_villager

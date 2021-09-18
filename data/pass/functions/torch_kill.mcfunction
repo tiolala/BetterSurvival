@@ -1,4 +1,4 @@
 #torch_kill
 
-execute if block ~ ~ ~ torch run setblock ~ ~ ~ air
+execute if block ~ ~ ~ minecraft:light run setblock ~ ~ ~ air
 kill @s
