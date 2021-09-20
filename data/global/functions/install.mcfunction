@@ -8,6 +8,7 @@ scoreboard objectives add idunico dummy
 scoreboard objectives add config dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add rand dummy
+scoreboard objectives add index dummy
 
 scoreboard objectives add xcord dummy
 scoreboard objectives add ycord dummy
@@ -24,6 +25,25 @@ scoreboard objectives add jump minecraft.custom:minecraft.jump
 #scoreboard objectives add villagetrade minecraft.custom:minecraft.traded_with_villager
 
 scoreboard objectives add c_expb minecraft.crafted:minecraft.experience_bottle
+
+scoreboard objectives add m_coal_ore minecraft.mined:minecraft.coal_ore
+scoreboard objectives add m_d_coal_ore minecraft.mined:minecraft.deepslate_coal_ore
+scoreboard objectives add m_iron_ore minecraft.mined:minecraft.iron_ore
+scoreboard objectives add m_d_iron_ore minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add m_copper_ore minecraft.mined:minecraft.copper_ore
+scoreboard objectives add m_d_copper_ore minecraft.mined:minecraft.deepslate_copper_ore
+scoreboard objectives add m_gold_ore minecraft.mined:minecraft.gold_ore
+scoreboard objectives add m_d_gold_ore minecraft.mined:minecraft.deepslate_gold_ore
+scoreboard objectives add m_redstone_ore minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add m_d_redstone_ore minecraft.mined:minecraft.deepslate_redstone_ore
+scoreboard objectives add m_emerald_ore minecraft.mined:minecraft.emerald_ore
+scoreboard objectives add m_d_emerald_ore minecraft.mined:minecraft.deepslate_emerald_ore
+scoreboard objectives add m_lapis_ore minecraft.mined:minecraft.lapis_ore
+scoreboard objectives add m_d_lapis_ore minecraft.mined:minecraft.deepslate_lapis_ore
+scoreboard objectives add m_diamond_ore minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add m_d_diamond_ore minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add m_n_gold_ore minecraft.mined:minecraft.nether_gold_ore
+scoreboard objectives add m_n_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
 
 #scoreboard objectives add k_creeper minecraft.killed:minecraft.creeper
 #scoreboard objectives add k_ender_dg minecraft.killed:minecraft.ender_dragon

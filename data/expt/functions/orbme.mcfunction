@@ -25,28 +25,29 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run function 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident"}}] run function expt:trident/orb
 
 #pickaxes
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe"}}] run function expt:orb_pickaxe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe"}}] run function expt:orb_pickaxe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe"}}] run function expt:orb_pickaxe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe"}}] run function expt:orb_pickaxe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] run function expt:orb_pickaxe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run function expt:orb_pickaxe
-
-#shovels
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_shovel"}}] run function expt:orb_shovel
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_shovel"}}] run function expt:orb_shovel
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_shovel"}}] run function expt:orb_shovel
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_shovel"}}] run function expt:orb_shovel
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_shovel"}}] run function expt:orb_shovel
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_shovel"}}] run function expt:orb_shovel
-
-#hoes
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_hoe"}}] run function expt:orb_hoe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_hoe"}}] run function expt:orb_hoe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_hoe"}}] run function expt:orb_hoe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_hoe"}}] run function expt:orb_hoe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_hoe"}}] run function expt:orb_hoe
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_hoe"}}] run function expt:orb_hoe
+execute if predicate expt:holdingpickaxe run function expt:pickaxe/orb
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe"}}] run function expt:orb_pickaxe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe"}}] run function expt:orb_pickaxe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe"}}] run function expt:orb_pickaxe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe"}}] run function expt:orb_pickaxe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe"}}] run function expt:orb_pickaxe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe"}}] run function expt:orb_pickaxe
+#
+##shovels
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_shovel"}}] run function expt:orb_shovel
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_shovel"}}] run function expt:orb_shovel
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_shovel"}}] run function expt:orb_shovel
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_shovel"}}] run function expt:orb_shovel
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_shovel"}}] run function expt:orb_shovel
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_shovel"}}] run function expt:orb_shovel
+#
+##hoes
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_hoe"}}] run function expt:orb_hoe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_hoe"}}] run function expt:orb_hoe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_hoe"}}] run function expt:orb_hoe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_hoe"}}] run function expt:orb_hoe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_hoe"}}] run function expt:orb_hoe
+#execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_hoe"}}] run function expt:orb_hoe
 
 #others
 #execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow"}}] run function expt:orb_bow

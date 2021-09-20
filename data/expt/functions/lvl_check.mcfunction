@@ -40,14 +40,15 @@ execute if score @s lvl_trident matches 7 if score @s exp_trident >= level7 exp_
 execute if score @s lvl_trident matches 8 if score @s exp_trident >= level8 exp_trident run function expt:trident/lvl_up
 execute if score @s lvl_trident matches 9 if score @s exp_trident >= level9 exp_trident run function expt:trident/lvl_up
 
-execute if score @s lvl_pickaxe matches 1 if score @s exp_pickaxe >= level1 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 2 if score @s exp_pickaxe >= level2 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 3 if score @s exp_pickaxe >= level3 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 4 if score @s exp_pickaxe >= level4 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 5 if score @s exp_pickaxe >= level5 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 6 if score @s exp_pickaxe >= level6 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 7 if score @s exp_pickaxe >= level7 exp_pickaxe run function expt:pickaxe_up
-execute if score @s lvl_pickaxe matches 8 if score @s exp_pickaxe >= level8 exp_pickaxe run function expt:pickaxe_up
+execute if score @s lvl_pickaxe matches 1 if score @s exp_pickaxe >= level1 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 2 if score @s exp_pickaxe >= level2 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 3 if score @s exp_pickaxe >= level3 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 4 if score @s exp_pickaxe >= level4 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 5 if score @s exp_pickaxe >= level5 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 6 if score @s exp_pickaxe >= level6 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 7 if score @s exp_pickaxe >= level7 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 8 if score @s exp_pickaxe >= level8 exp_pickaxe run function expt:pickaxe/lvl_up
+execute if score @s lvl_pickaxe matches 9 if score @s exp_pickaxe >= level9 exp_pickaxe run function expt:pickaxe/lvl_up
 
 execute if score @s lvl_shovel matches 1 if score @s exp_shovel >= level1 exp_shovel run function expt:shovel_up
 execute if score @s lvl_shovel matches 2 if score @s exp_shovel >= level2 exp_shovel run function expt:shovel_up
