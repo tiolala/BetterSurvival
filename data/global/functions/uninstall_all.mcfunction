@@ -1,4 +1,4 @@
-#uninstall_all
+#global:uninstall_all
 
 function global:uninstall
 function pass:uninstall

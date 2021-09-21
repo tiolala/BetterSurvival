@@ -1,3 +1,3 @@
-#give
+#global:book/give
 
 say book!

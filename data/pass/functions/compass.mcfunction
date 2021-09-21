@@ -1,4 +1,4 @@
-#compass
+#pass:compass
 
 function global:cords
 

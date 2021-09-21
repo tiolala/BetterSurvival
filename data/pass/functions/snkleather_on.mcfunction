@@ -1,4 +1,4 @@
-#snkleather_on
+#pass:snkleather_on
 
 tag @s add snkleather
 

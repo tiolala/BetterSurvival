@@ -1,4 +1,4 @@
-#shot_bow
+#global:shot_bow
 
 scoreboard players set @s shot_bow 0
 

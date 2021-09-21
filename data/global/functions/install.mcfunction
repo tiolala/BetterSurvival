@@ -1,3 +1,5 @@
+#global:install
+
 scoreboard objectives add aux dummy
 scoreboard objectives add tick dummy
 scoreboard objectives add const dummy

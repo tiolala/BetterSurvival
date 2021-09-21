@@ -1,1 +1,1 @@
-#gives all players a book
+#global:load

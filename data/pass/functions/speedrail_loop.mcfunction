@@ -1,4 +1,4 @@
-#speedrail_loop
+#pass:speedrail_loop
 
 execute unless score speedrail aux matches 1 run scoreboard players set speedrail aux 1
 

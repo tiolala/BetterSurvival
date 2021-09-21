@@ -1,4 +1,4 @@
-#one_time
+#global:one_time
 
 recipe give @s *
 recipe take @s minecraft:carrot_on_a_stick

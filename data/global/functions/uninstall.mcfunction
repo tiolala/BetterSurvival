@@ -1,3 +1,5 @@
+#global:uninstall
+
 scoreboard objectives remove bstick
 scoreboard objectives remove aux
 scoreboard objectives remove const
@@ -27,27 +29,6 @@ scoreboard objectives remove shot_bow
 scoreboard objectives remove shot_cb
 
 scoreboard objectives remove c_expb
-#scoreboard objectives remove k_creeper
-#scoreboard objectives remove k_enderman
-#scoreboard objectives remove k_zombie
-#scoreboard objectives remove k_blaze
-#scoreboard objectives remove k_magma_cube
-#scoreboard objectives remove k_villager
-#scoreboard objectives remove k_iron_golem
-#scoreboard objectives remove k_pillager
-#scoreboard objectives remove k_vindicator
-#scoreboard objectives remove k_ravager
-#scoreboard objectives remove k_polar_bear
-#scoreboard objectives remove k_wither
-#scoreboard objectives remove k_shulker
-#scoreboard objectives remove k_drowned
-#scoreboard objectives remove k_witch
-#scoreboard objectives remove k_silverfish
-#scoreboard objectives remove k_wither_sk
-#scoreboard objectives remove k_rabbit
-#scoreboard objectives remove k_bee
-#scoreboard objectives remove k_piglin
-#scoreboard objectives remove k_evoker
 
 scoreboard objectives remove m_d_coal_ore 
 scoreboard objectives remove m_coal_ore 

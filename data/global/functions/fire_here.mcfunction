@@ -1,4 +1,4 @@
-#fire_here
+#global:fire_here
 
 setblock ~ ~ ~ fire keep
 execute if block ~ ~ ~ #minecraft:wooden_buttons run setblock ~ ~ ~ fire

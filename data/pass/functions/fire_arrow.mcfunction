@@ -1,4 +1,4 @@
-#fire_arrow
+#pass:fire_arrow
 
 function global:fire_here
 

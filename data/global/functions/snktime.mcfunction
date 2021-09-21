@@ -1,4 +1,4 @@
-#snktime
+#global:snktime
 scoreboard players set @s snktime 0
 
 function pass:snktime

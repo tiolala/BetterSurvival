@@ -1,4 +1,4 @@
-#carrot
+#global:carrot
 
 scoreboard players set @s carrot 0
 

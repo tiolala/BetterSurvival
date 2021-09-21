@@ -1,4 +1,4 @@
-#freeze_me
+#global:freeze_me
 
 effect give @s minecraft:slowness 3 10
 execute unless block ~ ~-1 ~ air run setblock ~ ~ ~ minecraft:snow keep

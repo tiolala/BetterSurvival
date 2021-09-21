@@ -1,6 +1,4 @@
-#install
-
-#scoreboard objectives add xpbt_timer dummy
+#expt:install
 
 scoreboard objectives add exp_sword dummy
 scoreboard objectives add exp_axe dummy

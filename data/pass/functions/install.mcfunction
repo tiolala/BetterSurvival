@@ -1,6 +1,6 @@
-#install
+#pass:install
 
-scoreboard objectives add snkely dummy
+#scoreboard objectives add snkely dummy
 scoreboard objectives add snkleather dummy
 
 scoreboard players set Pass_torch config 1

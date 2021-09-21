@@ -1,6 +1,4 @@
-#uninstall
-
-#scoreboard objectives remove xpbt_timer
+#expt:uninstall
 
 scoreboard objectives remove exp_sword
 scoreboard objectives remove exp_axe

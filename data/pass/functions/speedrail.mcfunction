@@ -1,3 +1,5 @@
+#pass:speedrail
+
 function global:cords
 execute as @p run function global:cords
 

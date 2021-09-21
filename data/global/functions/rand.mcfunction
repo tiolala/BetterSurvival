@@ -1,4 +1,4 @@
-#rand
+#global:rand
 
 scoreboard players operation #GC rand += #GC tick
 scoreboard players operation #GC rand %= c1000 const

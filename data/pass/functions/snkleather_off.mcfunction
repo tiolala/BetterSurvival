@@ -1,4 +1,4 @@
-#snkleather_off
+#pass:snkleather_off
 
 tag @s remove snkleather
 scoreboard players reset @s snkleather

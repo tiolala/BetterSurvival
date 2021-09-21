@@ -1,4 +1,4 @@
-#10t
+#global:10t
 
 execute as @a if entity @s[nbt={SelectedItem:{id:"minecraft:paper",tag:{display:{Name:'{"text":"Ajuda"}'}}}}] run function global:book/give
 

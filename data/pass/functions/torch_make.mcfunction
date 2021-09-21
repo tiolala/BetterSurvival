@@ -1,4 +1,4 @@
-#torch_make
+#pass:torch_make
 
 execute if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:light
 execute if block ~ ~ ~ cave_air run setblock ~ ~ ~ minecraft:light

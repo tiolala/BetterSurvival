@@ -1,4 +1,4 @@
-#install_all
+#global:install_all
 
 function global:install
 function pass:install

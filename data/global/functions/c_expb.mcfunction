@@ -1,4 +1,4 @@
-#c_expb
+#global:c_expb
 
 scoreboard players set @s c_expb 0
 
