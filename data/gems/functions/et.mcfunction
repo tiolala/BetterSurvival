@@ -8,6 +8,10 @@
 
 #execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandcd matches 120.. anchored eyes positioned ^-0.6 ^ ^1 run function gems:particles
 
+#wandcd
+execute if score @s wandcd matches 1.. run scoreboard players remove @s wandcd 1
+execute if score @s wandcd matches ..-1 run scoreboard players set @s wandcd 0
+
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident",tag:{gems:["magenta"]}}}] run function gems:magenta/trident
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","red"]}}]}] run function gems:red/boots
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","black"]}}]}] run function gems:black/chestplate
