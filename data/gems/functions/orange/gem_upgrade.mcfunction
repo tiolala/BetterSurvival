@@ -1,0 +1,4 @@
+#gems:orange/gem_upgrade
+
+execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:orange_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Fire"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Orange Gem","italic":false}'},gems:["gem","orange","ready","3"],Enchantments:[{}]}}
+execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:orange_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Fire"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Orange Gem","italic":false}'},gems:["gem","orange","ready","2"],Enchantments:[{}]}}

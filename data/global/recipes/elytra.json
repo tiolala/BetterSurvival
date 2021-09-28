@@ -1,7 +1,7 @@
 {
     "type": "crafting_shaped",
     "pattern": [
-        "#P#",
+        "#l#",
         "f f",
         "f f"
     ],
@@ -9,8 +9,8 @@
         "#": {
             "item": "minecraft:phantom_membrane"
         },
-        "P": {
-            "item": "minecraft:ender_pearl"
+        "l": {
+            "item": "minecraft:leather"
         },
         "f": {
             "item": "minecraft:feather"

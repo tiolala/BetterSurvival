@@ -1,6 +1,7 @@
 #pass:10t
 
 #Elytra
+execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:elytra", Count:1b}}] at @s run function pass:elytra_table
 #execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b},{id:"minecraft:phantom_membrane",Slot:-106b}]}] run effect give @s minecraft:levitation 1 0 true
 #execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b},{id:"minecraft:phantom_membrane",Slot:-106b}]}] run effect give @s minecraft:slow_falling 1 0 true
 #execute if entity @s[nbt={Inventory:[{id:"minecraft:elytra",Slot:102b}],SelectedItem:{id:"minecraft:phantom_membrane"}}] run function pass:elytra
