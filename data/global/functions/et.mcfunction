@@ -32,6 +32,5 @@ execute as @a at @s run function pass:et
 execute as @a at @s run function expt:et
 execute as @a at @s run function gems:et
 execute as @a at @s run function bees:et
-#execute as @e[tag=mob] at @s run function mobs:et
 
 function bees:all_et

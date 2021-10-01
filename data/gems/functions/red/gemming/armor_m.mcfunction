@@ -1,0 +1,4 @@
+#gems:red/gemming/armor_m
+
+data merge entity @s {Item:{tag:{display:{Lore:['{"text":"Medium Red Gem"}']},gems:["red","gemed","2"],Enchantments:[{id:"minecraft:fire_protection",lvl:3s}]}}}
+execute align xyz run kill @e[type=item,nbt={Item:{id:"minecraft:red_glazed_terracotta"}},dx=0,dy=0,dz=0]

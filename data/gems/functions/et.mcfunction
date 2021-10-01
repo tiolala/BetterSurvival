@@ -12,6 +12,12 @@
 execute if score @s wandcd matches 1.. run scoreboard players remove @s wandcd 1
 execute if score @s wandcd matches ..-1 run scoreboard players set @s wandcd 0
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident",tag:{gems:["magenta"]}}}] run function gems:magenta/trident
+#boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","red"]}}]}] run function gems:red/boots
+
+execute if entity @s[tag=!snk_hld_w, scores={snk_hld_w=1..}] run function gems:white/boots_release 
+tag @s remove snk_hld_w
+
+#misc (unrevamped)
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","black"]}}]}] run function gems:black/chestplate
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident",tag:{gems:["magenta"]}}}] run function gems:magenta/trident

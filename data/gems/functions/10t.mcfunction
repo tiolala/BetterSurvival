@@ -15,7 +15,7 @@ execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] 
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:crying_obsidian", Count:1b}}] at @s run function gems:crying_obsidian
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{tag:{gems:["ready"]}}}] run function gems:gem_in_table
 
-execute as @e[type=arrow,tag=no_gravity] at @s unless entity @a[distance=..64] run kill @s
+#execute as @e[type=arrow,tag=no_gravity] at @s unless entity @a[distance=..64] run kill @s
 
 execute as @e[type=tnt,distance=..8,tag=supertnt,tag=!creeped] at @s run function gems:cyan/creeping_tnt
 

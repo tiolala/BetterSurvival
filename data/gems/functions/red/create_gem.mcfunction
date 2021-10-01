@@ -1,4 +1,4 @@
-#red/create_gem
+#gems:red/create_gem
 #tags: ttag01
 
 execute if entity @e[type=item,nbt={Item:{tag:{Soullvl:1}}},limit=1,distance=..1] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:red_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Lava"}','{"text":"small soul","italic":false,"color":"gray"}'],Name:'{"text":"Red Gem","italic":false}'},gems:["gem","red","ready","1"],Enchantments:[{}]}}}

@@ -1,5 +1,6 @@
 #carrot
 
-execute if score @s wandcd matches 30.. run effect give @s minecraft:levitation 1 3
-execute if score @s wandcd matches 30.. run effect give @s minecraft:slow_falling 6 0
-execute if score @s wandcd matches 30.. run scoreboard players remove @s wandcd 30
+execute if score @s wandcd matches 0 if score @s wandmana matches 6.. if entity @s[nbt={SelectedItem:{tag:{gems:["1"]}}}] run function gems:white/carrot/carrot_s
+execute if score @s wandcd matches 0 if score @s wandmana matches 6.. if entity @s[nbt={SelectedItem:{tag:{gems:["2"]}}}] run function gems:white/carrot/carrot_m
+execute if score @s wandcd matches 0 if score @s wandmana matches 6.. if entity @s[nbt={SelectedItem:{tag:{gems:["3"]}}}] run function gems:white/carrot/carrot_l
+execute if score @s wandcd matches 0 if score @s wandmana matches 6.. if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run function gems:white/carrot/carrot_b

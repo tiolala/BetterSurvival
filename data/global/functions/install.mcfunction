@@ -11,6 +11,7 @@ scoreboard objectives add config dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add rand dummy
 scoreboard objectives add index dummy
+scoreboard objectives add flag dummy
 
 scoreboard objectives add xcord dummy
 scoreboard objectives add ycord dummy

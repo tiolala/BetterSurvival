@@ -1,7 +1,7 @@
 #expt:pickaxe/mined_ore
 
 tag @e[tag=expt_more] remove expt_more
-execute anchored eyes run summon minecraft:armor_stand ^ ^ ^ {Marker:1b,Tags:["expt_more"]}
+execute anchored eyes run summon minecraft:marker ^ ^ ^ {Tags:["expt_more"]}
 execute at @e[tag=expt_more] rotated as @s run tp @e[tag=expt_more] ~ ~ ~ ~ ~
 scoreboard players operation @e[tag=expt_more,limit=1] lvl_pickaxe = @s lvl_pickaxe
 scoreboard players remove @e[tag=expt_more] lvl_pickaxe 1
