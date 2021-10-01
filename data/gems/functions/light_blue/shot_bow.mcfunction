@@ -1,3 +1,6 @@
 #shot_bow
 
-execute anchored eyes positioned ^ ^ ^2 as @e[type=minecraft:arrow,distance=..2.5,tag=!icearrow,limit=1,sort=nearest,nbt={inGround:0b}] unless entity @s[nbt={pickup:0b}] at @s run function gems:light_blue/new_arrow
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["1"]}}}] run function gems:light_blue/bow/shot_s
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["2"]}}}] run function gems:light_blue/bow/shot_m
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["3"]}}}] run function gems:light_blue/bow/shot_l
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run function gems:light_blue/bow/shot_b

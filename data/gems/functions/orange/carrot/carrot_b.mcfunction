@@ -34,7 +34,6 @@ execute as @e[tag=unfinished] at @s rotated as @s run tp @s ~ ~ ~ ~-45 ~
 scoreboard players set @e[tag=unfinished] index 10
 tag @e[tag=unfinished] remove unfinished
 
-
 execute unless score wandOloop flag matches 1 run function gems:orange/carrot/loop
 
 execute if score @s wandmana matches 20.. run scoreboard players remove @s wandmana 20
