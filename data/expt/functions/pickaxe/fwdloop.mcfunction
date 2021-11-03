@@ -1,7 +1,7 @@
 #expt:pickaxe/fwdloop
 #tags: expt_more
 
-execute if block ~ ~ ~ #expt:ores run tag @s add stop
+execute if block ~ ~ ~ #tags:ores run tag @s add stop
 execute unless score @s index matches 15.. run scoreboard players add @s index 1
 execute if score @s index matches 15.. run tag @s add stop
 

@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:enderman",
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:blaze",
+        "minecraft:endermite",
+        "minecraft:hoglin",
+        "minecraft:magma_cube",
+        "minecraft:shulker",
+        "minecraft:vex",
+        "minecraft:witch",
+        "minecraft:zoglin"
+    ]
+}

@@ -23,7 +23,7 @@
                   {
                     "text": "Small Soul",
                     "color": "blue",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }

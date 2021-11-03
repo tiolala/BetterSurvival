@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:guardian",
+        "minecraft:piglin_brute",
+        "minecraft:ravager",
+        "minecraft:vindicator",
+        "minecraft:wither_skeleton"
+    ]
+}

@@ -11,14 +11,12 @@ tp @s @e[tag=ttag01,limit=1]
 #execute if entity @e[tag=ttag01] store result entity @s Motion[1] double 0.0001 run data get entity @e[tag=ttag01,limit=1] Motion[1] 10000
 #execute if entity @e[tag=ttag01] store result entity @s Motion[2] double 0.0001 run data get entity @e[tag=ttag01,limit=1] Motion[2] 10000
 
-execute if score @s aux matches 1 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..2] run data modify entity @s TicksFrozen set value 140
-execute if score @s aux matches 2 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..4] run data modify entity @s TicksFrozen set value 140
-execute if score @s aux matches 3 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..6] run data modify entity @s TicksFrozen set value 140
-execute if score @s aux matches 4 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..8] run data modify entity @s TicksFrozen set value 140
-execute if score @s aux matches 1 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..2] run say ouch!
-execute if score @s aux matches 2 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..4] run say ouch!
-execute if score @s aux matches 3 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..6] run say ouch!
-execute if score @s aux matches 4 unless entity @e[tag=ttag01] positioned ^ ^ ^2 as @e[type=#mobs:all,distance=..8] run say ouch!
+execute if score @s aux matches 1 run scoreboard players set POS1 param 60
+execute if score @s aux matches 2 run scoreboard players set POS1 param 100
+execute if score @s aux matches 3 run scoreboard players set POS1 param 160
+execute if score @s aux matches 4 run scoreboard players set POS1 param 240
+
+execute if score @s aux matches 1 unless entity @e[tag=ttag01] positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[type=#mobs:all,distance=..4] run function efct:freeze/me
 
 
 execute unless entity @e[tag=ttag01] run kill @s

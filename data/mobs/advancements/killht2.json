@@ -2,14 +2,14 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "That was easy",
+            "text": "That was okay",
             "color": "black"
         },
         "description": {
-            "text": "Kill a weak mob"
+            "text": "Kill a medium mob"
         },
         "icon": {
-            "item": "minecraft:wooden_sword"
+            "item": "minecraft:iron_sword"
         },
         "frame": "task",
         "show_toast": false,
@@ -22,7 +22,7 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "#mobs:ht2"
+                    "type": "#tags:ht2"
                 }
             }
         }

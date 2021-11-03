@@ -2,6 +2,7 @@
 #tags: ttag01
 
 tag @s add bowshot
+tag @s add light_blue
 function global:idme
 
 tag @e[tag=unfinished] remove unfinished

@@ -23,7 +23,7 @@
                 {
                   "text": "Boss Soul",
                   "color": "blue",
-                  "italic": "false"
+                  "italic": false
                 }
               ]
             }

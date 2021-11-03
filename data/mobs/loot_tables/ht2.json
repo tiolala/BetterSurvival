@@ -23,7 +23,7 @@
                   {
                     "text": "Medium Soul",
                     "color": "blue",
-                    "italic": "false"
+                    "italic": false
                   }
                 ]
               }

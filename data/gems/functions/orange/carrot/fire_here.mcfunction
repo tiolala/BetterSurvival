@@ -1,4 +1,4 @@
 #gems:orange/carrot/fire_here
 
-execute at @s positioned ^ ^ ^-0.2 run function global:fire_here
+execute at @s run function efct:fire/here
 kill @s

@@ -15,6 +15,7 @@ scoreboard objectives remove timer
 scoreboard objectives remove pcount
 scoreboard objectives remove index
 scoreboard objectives remove flag
+scoreboard objectives remove param
 
 scoreboard objectives remove xcord
 scoreboard objectives remove ycord
