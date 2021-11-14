@@ -1,4 +1,4 @@
 #gems:cyan/gem_upgrade
 
-execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:cyan_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Explosion"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Cyan Gem","italic":false}'},gems:["gem","cyan","ready","3"],Enchantments:[{}]}}
-execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:cyan_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Explosion"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Cyan Gem","italic":false}'},gems:["gem","cyan","ready","2"],Enchantments:[{}]}}
+execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:cyan_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Lava"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Red Gem","italic":false}'},gems:["gem","cyan","ready","3"],Enchantments:[{}]}}
+execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:cyan_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Lava"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Red Gem","italic":false}'},gems:["gem","cyan","ready","2"],Enchantments:[{}]}}

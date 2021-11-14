@@ -9,8 +9,6 @@ scoreboard players operation @s count /= c2 const
 
 execute if score @s count > POS1 param run scoreboard players reset POS1 param
 
-#tellraw @a {"score":{"name":"POS1","objective":"param"}}
-
 execute if score POS1 param matches ..10 run data modify entity @s TicksFrozen set value 20
 execute if score POS1 param matches 11..20 run data modify entity @s TicksFrozen set value 40
 execute if score POS1 param matches 21..30 run data modify entity @s TicksFrozen set value 60
@@ -42,4 +40,4 @@ execute if score POS1 param matches 271..280 run data modify entity @s TicksFroz
 execute if score POS1 param matches 281..290 run data modify entity @s TicksFrozen set value 580
 execute if score POS1 param matches 291.. run data modify entity @s TicksFrozen set value 600
 
-scoreboard players reset POS1 param
+#scoreboard players reset POS1 param
