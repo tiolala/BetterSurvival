@@ -3,9 +3,6 @@
 execute at @s run function efct:freeze/here
 execute at @s positioned ~ ~-1 ~ run function efct:freeze/here
 
-#say freeze
-
-#tellraw @a {"score":{"name":"POS1","objective":"param"}}
 
 execute store result score @s count run data get entity @s TicksFrozen
 scoreboard players operation @s count /= c2 const

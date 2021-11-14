@@ -20,6 +20,7 @@ execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] 
 execute as @e[type=tnt,distance=..8,tag=supertnt,tag=!creeped] at @s run function gems:cyan/creeping_tnt
 
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","orange"]}}]}] run function gems:orange/10t_chestplate
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","yellow"]}}]}] run function gems:yellow/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","magenta"]}}]}] run function gems:magenta/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_boots

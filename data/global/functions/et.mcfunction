@@ -34,3 +34,5 @@ execute as @a at @s run function gems:et
 execute as @a at @s run function bees:et
 
 function bees:all_et
+
+function efct:et

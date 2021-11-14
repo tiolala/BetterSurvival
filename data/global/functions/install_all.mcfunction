@@ -5,5 +5,6 @@ function pass:install
 function expt:install
 function gems:install
 function bees:install
+function efct:install
 
 execute as @a at @s run function global:one_time

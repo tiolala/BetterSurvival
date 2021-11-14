@@ -1,12 +1,6 @@
-#carrot
+#gems:yellow/carrot
 
-#execute if score @s wandcd matches 180.. run weather thunder
-#execute if score @s wandcd matches 180.. as @e[distance=..16,limit=4,sort=random,tag=mob] run function global:thuder_me
-#execute if score @s wandcd matches 180.. run scoreboard players remove @s wandcd 180
-
-tag @s remove aux
-execute unless score dmgYloop aux matches 1 run tag @s add aux
-
-execute if entity @s[tag=aux] if score @s wandcd matches 6.. run function gems:yellow/dmgdlt
-execute if entity @s[tag=aux] if score @s wandcd matches 6.. run scoreboard players remove @s wandcd 6
-tag @s remove aux
+execute if score @s wandcd matches 0 if score @s wandmana matches 10.. if entity @s[nbt={SelectedItem:{tag:{gems:["1"]}}}] run function gems:yellow/carrot/carrot_s
+execute if score @s wandcd matches 0 if score @s wandmana matches 20.. if entity @s[nbt={SelectedItem:{tag:{gems:["2"]}}}] run function gems:yellow/carrot/carrot_m
+execute if score @s wandcd matches 0 if score @s wandmana matches 30.. if entity @s[nbt={SelectedItem:{tag:{gems:["3"]}}}] run function gems:yellow/carrot/carrot_l
+execute if score @s wandcd matches 0 if score @s wandmana matches 40.. if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run function gems:yellow/carrot/carrot_b

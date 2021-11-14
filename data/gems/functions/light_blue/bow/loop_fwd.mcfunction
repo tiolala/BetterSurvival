@@ -16,7 +16,7 @@ execute if score @s aux matches 2 run scoreboard players set POS1 param 100
 execute if score @s aux matches 3 run scoreboard players set POS1 param 160
 execute if score @s aux matches 4 run scoreboard players set POS1 param 240
 
-execute if score @s aux matches 1 unless entity @e[tag=ttag01] positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[type=#mobs:all,distance=..4] run function efct:freeze/me
+execute unless entity @e[tag=ttag01] positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[type=#mobs:all,distance=..4] run function efct:freeze/me
 
 
 execute unless entity @e[tag=ttag01] run kill @s
