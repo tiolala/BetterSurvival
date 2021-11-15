@@ -22,6 +22,7 @@ scoreboard objectives add r1cord dummy
 
 scoreboard objectives add snktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add dmgdlt minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add dmgtkn minecraft.custom:minecraft.damage_taken
 scoreboard objectives add shot_bow minecraft.used:minecraft.bow
 scoreboard objectives add shot_cb minecraft.used:minecraft.crossbow
 scoreboard objectives add carrot minecraft.used:minecraft.carrot_on_a_stick

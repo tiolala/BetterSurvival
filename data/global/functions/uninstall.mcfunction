@@ -25,6 +25,7 @@ scoreboard objectives remove r1cord
 
 scoreboard objectives remove snktime
 scoreboard objectives remove dmgdlt
+scoreboard objectives remove dmgtkn
 scoreboard objectives remove carrot
 #scoreboard objectives remove villagetrade
 scoreboard objectives remove shot_bow
