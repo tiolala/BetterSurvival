@@ -21,14 +21,15 @@ execute as @e[type=tnt,distance=..8,tag=supertnt,tag=!creeped] at @s run functio
 
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","orange"]}}]}] run function gems:orange/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","yellow"]}}]}] run function gems:yellow/10t_chestplate
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","magenta"]}}]}] run function gems:magenta/10t_chestplate
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_chestplate
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_boots
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","light_gray"]}}]}] run function gems:light_gray/chestplate
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","blue"]}}]}] run function gems:blue/chestplate
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","green"]}}]}] run function gems:green/chestplate
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","purple","pickaxe"]}}}] run function gems:purple/pickaxe
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","lime"]}}}] run function gems:lime/10t_weapon
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","pink"]}}]}] run function gems:pink/10t_boots
+#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","magenta"]}}]}] run function gems:magenta/10t_chestplate
+#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_chestplate
+#execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_boots
+#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","light_gray"]}}]}] run function gems:light_gray/chestplate
+#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","blue"]}}]}] run function gems:blue/chestplate
+#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","green"]}}]}] run function gems:green/chestplate
+#execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","purple","pickaxe"]}}}] run function gems:purple/pickaxe
+#execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","lime"]}}}] run function gems:lime/10t_weapon
 
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandmana matches 48.. anchored eyes positioned ^-0.6 ^ ^1 run function gems:particles
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandmana matches 96.. anchored eyes positioned ^-0.6 ^ ^1 run function gems:particles

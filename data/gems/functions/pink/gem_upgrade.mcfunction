@@ -1,4 +1,4 @@
 #gems:pink/gem_upgrade
 
-execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:pink_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Heal"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"pink Gem","italic":false}'},gems:["gem","pink","ready","3"],Enchantments:[{}]}}
-execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:pink_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Heal"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"pink Gem","italic":false}'},gems:["gem","pink","ready","2"],Enchantments:[{}]}}
+execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:pink_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Freeze"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Pink Gem","italic":false}'},gems:["gem","pink","ready","3"],Enchantments:[{}]}}
+execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:pink_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Freeze"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Pink Gem","italic":false}'},gems:["gem","pink","ready","2"],Enchantments:[{}]}}
