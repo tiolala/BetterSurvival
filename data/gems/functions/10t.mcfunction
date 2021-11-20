@@ -17,12 +17,12 @@ execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] 
 
 #execute as @e[type=arrow,tag=no_gravity] at @s unless entity @a[distance=..64] run kill @s
 
-execute as @e[type=tnt,distance=..8,tag=supertnt,tag=!creeped] at @s run function gems:cyan/creeping_tnt
+#execute as @e[type=tnt,distance=..8,tag=supertnt,tag=!creeped] at @s run function gems:cyan/creeping_tnt
 
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","orange"]}}]}] run function gems:orange/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","yellow"]}}]}] run function gems:yellow/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","pink"]}}]}] run function gems:pink/10t_boots
-#execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","magenta"]}}]}] run function gems:magenta/10t_chestplate
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","purple"]}}]}] run function gems:purple/10t_chestplate
 #execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_chestplate
 #execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_boots
 #execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","light_gray"]}}]}] run function gems:light_gray/chestplate
@@ -38,10 +38,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandm
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandmana matches 240.. anchored eyes positioned ^-0.6 ^ ^1 run function gems:particles
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandmana matches 240.. anchored eyes positioned ^-0.6 ^ ^1 run particle minecraft:witch ~ ~ ~ 0 0 0 0 0 force @s
 
-#execute if entity @s[nbt={Inventory:[{id:"minecraft:trident",Slot:-106b,tag:{gems:["blue"]}}]}] run function gems:blue/trident
-#execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident",tag:{gems:["blue"]}}}] run function gems:blue/trident
 
-execute if entity @s[nbt={Inventory:[{id:"minecraft:trident",Slot:-106b,tag:{gems:["magenta"]}}]}] run function gems:magenta/trident
+#execute if entity @s[nbt={Inventory:[{id:"minecraft:trident",Slot:-106b,tag:{gems:["magenta"]}}]}] run function gems:magenta/trident
 
-execute if entity @e[type=armor_stand,tag=tphome,tag=unfinished,distance=..8] run function gems:purple/home
-execute if entity @e[type=armor_stand,tag=tpbackhome,distance=..8] run function gems:purple/back_home
+#execute if entity @e[type=armor_stand,tag=tphome,tag=unfinished,distance=..8] run function gems:purple/home
+#execute if entity @e[type=armor_stand,tag=tpbackhome,distance=..8] run function gems:purple/back_home

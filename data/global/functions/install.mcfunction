@@ -7,6 +7,7 @@ scoreboard objectives add count dummy
 scoreboard objectives add pcount dummy
 scoreboard objectives add hurttime dummy
 scoreboard objectives add idunico dummy
+scoreboard objectives add ownerid dummy
 scoreboard objectives add config dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add rand dummy

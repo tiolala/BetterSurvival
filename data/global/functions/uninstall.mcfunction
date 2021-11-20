@@ -6,6 +6,7 @@ scoreboard objectives remove const
 scoreboard objectives remove count
 scoreboard objectives remove hurttime
 scoreboard objectives remove idunico
+scoreboard objectives remove ownerid
 scoreboard objectives remove temp
 scoreboard objectives remove jump
 scoreboard objectives remove config
@@ -27,7 +28,6 @@ scoreboard objectives remove snktime
 scoreboard objectives remove dmgdlt
 scoreboard objectives remove dmgtkn
 scoreboard objectives remove carrot
-#scoreboard objectives remove villagetrade
 scoreboard objectives remove shot_bow
 scoreboard objectives remove shot_cb
 
