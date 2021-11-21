@@ -4,7 +4,6 @@ particle explosion ~ ~ ~ 0.2 0.2 0.2 0 2 force
 
 #summon creeper ~ ~ ~ {ExplosionRadius:1,Fuse:-1}
 
-
 tag @e[tag=ttag01] remove ttag01
 tag @s add ttag01
 
