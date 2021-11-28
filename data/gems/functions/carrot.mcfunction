@@ -14,3 +14,4 @@ execute if entity @s[nbt={SelectedItem:{tag:{gems:["black"]}}}] run function gem
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["brown"]}}}] run function gems:brown/carrot
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["green"]}}}] run function gems:green/carrot
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["yellow"]}}}] run function gems:yellow/carrot
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["lime"]}}}] run function gems:lime/carrot

@@ -9,3 +9,4 @@ execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","black"]}}}] run func
 #execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","green"]}}}] run function gems:green/dmgdlt
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","yellow"]}}}] run function gems:yellow/dmgdlt
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","purple"]}}}] run function gems:purple/dmgdlt
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["gemed","lime"]}}}] run function gems:lime/dmgdlt
