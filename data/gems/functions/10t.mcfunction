@@ -24,6 +24,7 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","yellow"]}}]}
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","pink"]}}]}] run function gems:pink/10t_boots
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","purple"]}}]}] run function gems:purple/10t_chestplate
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","magenta"]}}]}] run function gems:magenta/10t_chestplate
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","blue","4"]}}]}] run function gems:blue/10t_boos_boots
 #execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_chestplate
 #execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","lime"]}}]}] run function gems:lime/10t_boots
 #execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","light_gray"]}}]}] run function gems:light_gray/chestplate
