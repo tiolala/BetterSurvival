@@ -11,7 +11,7 @@ tag @s remove ttag01
 execute if score @s wandmana matches 241.. run scoreboard players set @s wandmana 240
 execute if score @s wandmana matches ..-1 run scoreboard players set @s wandmana 0
 
-execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{tag:{gems:["ready"]}, Count:8b}}] at @s run function gems:gem_upgrade
+execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:soul_lantern", Count:8b}}] at @s run function gems:soul_upgrade
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:crying_obsidian", Count:1b}}] at @s run function gems:crying_obsidian
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{tag:{gems:["ready"]}}}] run function gems:gem_in_table
 

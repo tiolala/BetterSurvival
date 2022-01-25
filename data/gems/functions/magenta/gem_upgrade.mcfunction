@@ -1,4 +1,0 @@
-#gems:magenta/gem_upgrade
-
-execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:magenta_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Mana"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Magenta Gem","italic":false}'},gems:["gem","magenta","ready","3"],Enchantments:[{}]}}
-execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:magenta_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Mana"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Magenta Gem","italic":false}'},gems:["gem","magenta","ready","2"],Enchantments:[{}]}}

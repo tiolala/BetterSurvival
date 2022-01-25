@@ -1,4 +1,0 @@
-#gems:blue/gem_upgrade
-
-execute if entity @s[nbt={Item:{tag:{gems:["2"]}}}] run data modify entity @s Item set value {id:"minecraft:blue_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Water"}','{"text":"large soul","italic":false,"color":"gray"}'],Name:'{"text":"Blue Gem","italic":false}'},gems:["gem","blue","ready","3"],Enchantments:[{}]}}
-execute if entity @s[nbt={Item:{tag:{gems:["1"]}}}] run data modify entity @s Item set value {id:"minecraft:blue_glazed_terracotta",Count:1b,tag:{display:{Lore:['{"text":"Water"}','{"text":"medium soul","italic":false,"color":"gray"}'],Name:'{"text":"Blue Gem","italic":false}'},gems:["gem","blue","ready","2"],Enchantments:[{}]}}
