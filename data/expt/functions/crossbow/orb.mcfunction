@@ -1,7 +1,7 @@
 #expt:crossbow/orb
 
-execute unless score @s lvl_crossbow matches 8 run scoreboard players add @s exp_crossbow 1
-execute unless score @s lvl_crossbow matches 8 run tag @s add orbme
+execute unless score @s lvl_crossbow matches 10 run scoreboard players add @s exp_crossbow 1
+execute unless score @s lvl_crossbow matches 10 run tag @s add orbme
 
 execute if score Expt-act config matches 1 if score @s lvl_crossbow matches 1 run title @s actionbar ["",{"text":"Crossbow mastery: ","color":"gold"},{"score":{"name":"@s","objective":"exp_crossbow"}},{"text":" / "},{"score":{"name":"level1","objective":"exp_crossbow"}}]
 execute if score Expt-act config matches 1 if score @s lvl_crossbow matches 2 run title @s actionbar ["",{"text":"Crossbow mastery: ","color":"gold"},{"score":{"name":"@s","objective":"exp_crossbow"}},{"text":" / "},{"score":{"name":"level2","objective":"exp_crossbow"}}]

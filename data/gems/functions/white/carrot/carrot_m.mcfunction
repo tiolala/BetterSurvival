@@ -16,10 +16,10 @@ particle minecraft:dust 0.85 0.85 0.85 0.5 ~ ~1 ~ 1 1 1 0.01 10 force @s
 tag @e[tag=ttag01] remove ttag01
 tag @s add ttag01
 kill @e[type=arrow,distance=..8]
-execute as @e[type=#mobs:passive,distance=..8] at @s run function gems:white/carrot/push_me
-execute as @e[type=#mobs:neutral,distance=..8] at @s run function gems:white/carrot/push_me
-execute as @e[type=#mobs:ht1,distance=..8] at @s run function gems:white/carrot/push_me
-execute as @e[type=#mobs:ht2,distance=..4] at @s run function gems:white/carrot/push_me
+execute as @e[type=#tags:passive,distance=..8] at @s run function gems:white/carrot/push_me
+execute as @e[type=#tags:neutral,distance=..8] at @s run function gems:white/carrot/push_me
+execute as @e[type=#tags:ht1,distance=..8] at @s run function gems:white/carrot/push_me
+execute as @e[type=#tags:ht2,distance=..4] at @s run function gems:white/carrot/push_me
 
 tag @e[tag=ttag01] remove ttag01
 

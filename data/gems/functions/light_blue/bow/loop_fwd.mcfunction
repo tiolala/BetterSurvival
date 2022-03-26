@@ -16,7 +16,7 @@ execute if score @s aux matches 4 run scoreboard players set POS1 param 240
 
 execute unless entity @e[tag=ttag01] run scoreboard players reset @e[scores={hurttime=0..}] hurttime
 execute unless entity @e[tag=ttag01] as @e[distance=..6] store result score @s hurttime run data get entity @s HurtTime
-execute unless entity @e[tag=ttag01] as @e[distance=..6,scores={hurttime=10},limit=1,sort=nearest] at @s as @e[type=#mobs:all,distance=..4] run function efct:freeze/me
+execute unless entity @e[tag=ttag01] as @e[distance=..6,scores={hurttime=10},limit=1,sort=nearest] at @s as @e[type=#tags:all,distance=..4] run function efct:freeze/me
 
 execute unless entity @e[tag=ttag01] run kill @s
 

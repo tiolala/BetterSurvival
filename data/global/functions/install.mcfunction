@@ -14,12 +14,15 @@ scoreboard objectives add rand dummy
 scoreboard objectives add index dummy
 scoreboard objectives add flag dummy
 scoreboard objectives add param dummy
+scoreboard objectives add dimentions dummy
 
 scoreboard objectives add xcord dummy
 scoreboard objectives add ycord dummy
 scoreboard objectives add zcord dummy
 scoreboard objectives add r0cord dummy
 scoreboard objectives add r1cord dummy
+
+scoreboard objectives add death deathCount
 
 scoreboard objectives add snktime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add dmgdlt minecraft.custom:minecraft.damage_dealt

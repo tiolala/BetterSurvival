@@ -17,12 +17,15 @@ scoreboard objectives remove pcount
 scoreboard objectives remove index
 scoreboard objectives remove flag
 scoreboard objectives remove param
+scoreboard objectives remove dimentions
 
 scoreboard objectives remove xcord
 scoreboard objectives remove ycord
 scoreboard objectives remove zcord
 scoreboard objectives remove r0cord
 scoreboard objectives remove r1cord
+
+scoreboard objectives remove death
 
 scoreboard objectives remove snktime
 scoreboard objectives remove dmgdlt

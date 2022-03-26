@@ -8,6 +8,7 @@ execute as @a[scores={shot_bow=1..}] at @s run function global:shot_bow
 execute as @a[scores={shot_cb=1..}] at @s run function global:shot_cb
 execute as @a[scores={c_expb=1..}] at @s run function global:c_expb
 execute as @a[scores={jump=1..}] at @s run function global:jump
+execute as @e[type=player,scores={death=1..}] at @s run function global:death
 #execute as @a[scores={villagetrade=1..}] at @s run function global:villagetrade
 
 execute as @a[scores={m_d_coal_ore=1..}] at @s run function global:mined_ore
@@ -32,7 +33,8 @@ execute as @a[scores={m_n_quartz_ore=1..}] at @s run function global:mined_ore
 execute as @a at @s run function pass:et
 execute as @a at @s run function expt:et
 execute as @a at @s run function gems:et
-execute as @a at @s run function bees:et
+#execute as @a at @s run function bees:et
+execute as @a at @s run function mobs:et
 
 function bees:all_et
 

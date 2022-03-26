@@ -11,3 +11,4 @@ function global:idme
 tag @s add one_time
 
 execute unless score @s lvl_sword matches 1.. run function expt:lvl_1
+execute unless score @s dimentions matches 1.. run scoreboard players set @s dimentions 1
