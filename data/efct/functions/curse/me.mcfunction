@@ -1,8 +1,6 @@
 #efct:curse/me
 #tags: ttag01
 
-say curse!
-
 execute at @s positioned ~ ~0.75 ~ run particle soul ~ ~ ~ 0.25 0.5 0.25 0.05 10
 effect give @s blindness 3 1
 

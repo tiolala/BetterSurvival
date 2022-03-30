@@ -10,6 +10,8 @@ execute as @e[tag=mob] at @s run function mobs:10t
 
 execute as @e[type=minecraft:trident,nbt={Trident:{tag:{gems:["gemed"]}}}] at @s run function gems:10t_tridents
 
-execute as @e[type=#tags:all,tag=!onetime] run function mobs:tag_me
+execute as @e[type=#tags:all,tag=!one_time] run function mobs:tag_me
 
 function bees:all_10t
+
+execute as @e[tag=supersize] at @s run function mobs:10t_ss

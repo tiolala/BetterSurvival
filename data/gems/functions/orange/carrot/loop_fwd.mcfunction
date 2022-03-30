@@ -8,6 +8,6 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,dy=0,dz=0,type=#tags:all]
 
 
 execute if block ~ ~ ~ #tags:flammable run setblock ~ ~ ~ fire
-execute unless block ~ ~ ~ #global:airs unless block ~ ~ ~ minecraft:fire run function gems:orange/carrot/fire_here
+execute unless block ~ ~ ~ #tags:airs unless block ~ ~ ~ minecraft:fire run function gems:orange/carrot/fire_here
 
 tp @s ^ ^ ^0.2

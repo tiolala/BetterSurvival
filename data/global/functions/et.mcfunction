@@ -39,3 +39,5 @@ execute as @a at @s run function mobs:et
 function bees:all_et
 
 function efct:et
+
+execute as @e[tag=supersize] at @s run function mobs:et_ss

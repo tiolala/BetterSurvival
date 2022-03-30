@@ -1,4 +1,4 @@
 #global:idme
 
 scoreboard players add #GC idunico 1
-scoreboard players operation @s idunico = #GC idunico
+execute unless score @s idunico matches 0.. run scoreboard players operation @s idunico = #GC idunico
