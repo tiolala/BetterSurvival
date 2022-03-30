@@ -9,3 +9,4 @@ execute if entity @s[type=cave_spider] run function mobs:spider/10t
 execute if entity @s[type=ghast] run function mobs:ghast/10t
 execute if entity @s[type=blaze] run function mobs:blaze/10t
 execute if entity @s[type=piglin_brute] run function mobs:piglin_brute/10t
+execute if entity @s[type=witch] run function mobs:witch/10t
