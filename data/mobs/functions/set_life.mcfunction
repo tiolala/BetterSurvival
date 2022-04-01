@@ -8,6 +8,7 @@ execute if score POS1 param matches 28 run attribute @s generic.max_health base 
 execute if score POS1 param matches 32 run attribute @s generic.max_health base set 32
 execute if score POS1 param matches 40 run attribute @s generic.max_health base set 40
 execute if score POS1 param matches 52 run attribute @s generic.max_health base set 52
+execute if score POS1 param matches 56 run attribute @s generic.max_health base set 56
 execute if score POS1 param matches 80 run attribute @s generic.max_health base set 80
 execute if score POS1 param matches 100 run attribute @s generic.max_health base set 100
 execute if score POS1 param matches 160 run attribute @s generic.max_health base set 160
@@ -20,8 +21,10 @@ execute if score POS1 param matches 36 run attribute @s generic.max_health base 
 execute if score POS1 param matches 42 run attribute @s generic.max_health base set 42
 execute if score POS1 param matches 48 run attribute @s generic.max_health base set 48
 execute if score POS1 param matches 60 run attribute @s generic.max_health base set 60
+execute if score POS1 param matches 64 run attribute @s generic.max_health base set 64
 execute if score POS1 param matches 72 run attribute @s generic.max_health base set 72
 execute if score POS1 param matches 78 run attribute @s generic.max_health base set 78
+execute if score POS1 param matches 84 run attribute @s generic.max_health base set 84
 execute if score POS1 param matches 90 run attribute @s generic.max_health base set 90
 execute if score POS1 param matches 120 run attribute @s generic.max_health base set 120
 execute if score POS1 param matches 150 run attribute @s generic.max_health base set 150

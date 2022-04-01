@@ -1,4 +1,5 @@
 #mobs:piglin_brute/is_looking
+#tags:ttag01
 
 tag @e[tag=ttag02] remove ttag02
 execute rotated as @s positioned ^ ^ ^-1 facing entity @e[tag=ttag01,limit=1,sort=nearest] feet positioned ^ ^ ^1 if entity @s[distance=..1] run tag @s add ttag02
