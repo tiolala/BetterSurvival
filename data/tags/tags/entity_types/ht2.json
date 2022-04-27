@@ -2,6 +2,7 @@
     "replace": false,
     "values":[
         "minecraft:enderman",
+        "minecraft:guardian",
         "minecraft:piglin",
         "minecraft:zombified_piglin",
         "minecraft:blaze",
@@ -11,6 +12,7 @@
         "minecraft:shulker",
         "minecraft:vex",
         "minecraft:witch",
-        "minecraft:zoglin"
+        "minecraft:zoglin",
+        "minecraft:wither_skeleton"
     ]
 }

@@ -3,10 +3,9 @@
     "values":[
         "minecraft:evoker",
         "minecraft:ghast",
-        "minecraft:guardian",
+        "minecraft:elder_guardian",
         "minecraft:piglin_brute",
         "minecraft:ravager",
-        "minecraft:vindicator",
-        "minecraft:wither_skeleton"
+        "minecraft:vindicator"
     ]
 }

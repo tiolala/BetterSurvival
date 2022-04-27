@@ -7,3 +7,4 @@ execute if entity @s[type=silverfish] run function mobs:silverfish/et
 execute if entity @s[type=endermite] run function mobs:endermite/et
 execute if entity @s[type=ravager] run function mobs:ravager/et
 execute if entity @s[type=guardian] run function mobs:guardian/et
+execute if entity @s[type=elder_guardian] run function mobs:guardian/et
