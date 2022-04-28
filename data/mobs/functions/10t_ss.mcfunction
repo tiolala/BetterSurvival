@@ -15,3 +15,4 @@ execute if entity @s[type=slime] run function mobs:slime/10t
 execute if entity @s[type=stray] run function mobs:stray/10t
 execute if entity @s[type=vindicator] run function mobs:vindicator/10t
 execute if entity @s[type=ravager] run function mobs:ravager/10t
+execute if entity @s[type=ender_dragon] run function mobs:ender_dragon/10t

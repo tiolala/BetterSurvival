@@ -8,3 +8,4 @@ execute if entity @s[type=endermite] run function mobs:endermite/et
 execute if entity @s[type=ravager] run function mobs:ravager/et
 execute if entity @s[type=guardian] run function mobs:guardian/et
 execute if entity @s[type=elder_guardian] run function mobs:guardian/et
+execute if entity @s[type=ender_dragon] run function mobs:ender_dragon/et

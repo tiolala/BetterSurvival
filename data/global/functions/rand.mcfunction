@@ -1,5 +1,7 @@
 #global:rand
 
+execute unless score #GC rand matches 0.. run scoreboard players set #GC rand 1
+execute store result score #GC tick run time query daytime
 scoreboard players operation #GC rand += #GC tick
 scoreboard players operation #GC rand %= c1000 const
 
