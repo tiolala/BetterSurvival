@@ -13,3 +13,4 @@ execute if score #GC rand matches 667.. run tag @s add magic
 tag @s add charging
 
 
+say CHARGE!
