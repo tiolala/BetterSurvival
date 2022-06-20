@@ -1,5 +1,7 @@
 #expt:install
 
+scoreboard objectives add no_grav_index dummy
+
 scoreboard objectives add exp_sword dummy
 scoreboard objectives add exp_axe dummy
 scoreboard objectives add exp_pickaxe dummy

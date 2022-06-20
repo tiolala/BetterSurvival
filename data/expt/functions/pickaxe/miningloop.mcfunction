@@ -1,14 +1,10 @@
 #expt:pickaxe/miningloop
-#tags: expt_more; mine_here
+#tags: expt_more; mine_here, ttag01
 
-execute at @e[tag=mine_here,tag=!old] positioned ~1 ~ ~ unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-execute at @e[tag=mine_here,tag=!old] positioned ~-1 ~ ~ unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-execute at @e[tag=mine_here,tag=!old] positioned ~ ~1 ~ unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-execute at @e[tag=mine_here,tag=!old] positioned ~ ~-1 ~ unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-execute at @e[tag=mine_here,tag=!old] positioned ~ ~ ~1 unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-execute at @e[tag=mine_here,tag=!old] positioned ~ ~ ~-1 unless entity @e[tag=mine_here,distance=..0.5] if block ~ ~ ~ #tags:ores run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mine_here","new"]}
-
-tag @e[tag=mine_here,tag=!new] add old
-tag @e[tag=mine_here,tag=new] remove new
-scoreboard players remove @e[tag=expt_more] lvl_pickaxe 1
-execute if entity @e[tag=expt_more,scores={lvl_pickaxe=1..}] run function expt:pickaxe/miningloop
+summon minecraft:marker ~ ~ ~ {Tags:["mine_here"]}
+execute positioned ~ ~ ~1 if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop
+execute positioned ~ ~ ~-1 if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop
+execute positioned ~1 ~ ~ if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop
+execute positioned ~-1 ~ ~ if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop
+execute positioned ~ ~1 ~ if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop
+execute positioned ~ ~-1 ~ if entity @e[tag=expt_more, distance=..10] unless entity @e[tag=mine_here, distance=..0.2] if block ~ ~ ~ #tags:ores run function expt:pickaxe/miningloop

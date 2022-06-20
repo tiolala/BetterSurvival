@@ -30,6 +30,16 @@ execute if score @s lvl_crossbow matches 7 if score @s exp_crossbow >= level7 ex
 execute if score @s lvl_crossbow matches 8 if score @s exp_crossbow >= level8 exp_crossbow run function expt:crossbow/lvl_up
 execute if score @s lvl_crossbow matches 9 if score @s exp_crossbow >= level9 exp_crossbow run function expt:crossbow/lvl_up
 
+execute if score @s lvl_bow matches 1 if score @s exp_bow >= level1 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 2 if score @s exp_bow >= level2 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 3 if score @s exp_bow >= level3 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 4 if score @s exp_bow >= level4 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 5 if score @s exp_bow >= level5 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 6 if score @s exp_bow >= level6 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 7 if score @s exp_bow >= level7 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 8 if score @s exp_bow >= level8 exp_bow run function expt:bow/lvl_up
+execute if score @s lvl_bow matches 9 if score @s exp_bow >= level9 exp_bow run function expt:bow/lvl_up
+
 execute if score @s lvl_trident matches 1 if score @s exp_trident >= level1 exp_trident run function expt:trident/lvl_up
 execute if score @s lvl_trident matches 2 if score @s exp_trident >= level2 exp_trident run function expt:trident/lvl_up
 execute if score @s lvl_trident matches 3 if score @s exp_trident >= level3 exp_trident run function expt:trident/lvl_up
@@ -49,29 +59,3 @@ execute if score @s lvl_pickaxe matches 6 if score @s exp_pickaxe >= level6 exp_
 execute if score @s lvl_pickaxe matches 7 if score @s exp_pickaxe >= level7 exp_pickaxe run function expt:pickaxe/lvl_up
 execute if score @s lvl_pickaxe matches 8 if score @s exp_pickaxe >= level8 exp_pickaxe run function expt:pickaxe/lvl_up
 execute if score @s lvl_pickaxe matches 9 if score @s exp_pickaxe >= level9 exp_pickaxe run function expt:pickaxe/lvl_up
-
-execute if score @s lvl_shovel matches 1 if score @s exp_shovel >= level1 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 2 if score @s exp_shovel >= level2 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 3 if score @s exp_shovel >= level3 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 4 if score @s exp_shovel >= level4 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 5 if score @s exp_shovel >= level5 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 6 if score @s exp_shovel >= level6 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 7 if score @s exp_shovel >= level7 exp_shovel run function expt:shovel_up
-execute if score @s lvl_shovel matches 8 if score @s exp_shovel >= level8 exp_shovel run function expt:shovel_up
-
-execute if score @s lvl_hoe matches 1 if score @s exp_hoe >= level1 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 2 if score @s exp_hoe >= level2 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 3 if score @s exp_hoe >= level3 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 4 if score @s exp_hoe >= level4 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 5 if score @s exp_hoe >= level5 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 6 if score @s exp_hoe >= level6 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 7 if score @s exp_hoe >= level7 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 8 if score @s exp_hoe >= level8 exp_hoe run function expt:hoe_up
-execute if score @s lvl_hoe matches 8 if score @s exp_hoe >= level8 exp_hoe run function expt:hoe_up
-
-execute if score @s lvl_bow matches 1 if score @s exp_bow >= level1 exp_bow run function expt:bow_up
-execute if score @s lvl_bow matches 2 if score @s exp_bow >= level2 exp_bow run function expt:bow_up
-execute if score @s lvl_bow matches 3 if score @s exp_bow >= level3 exp_bow run function expt:bow_up
-execute if score @s lvl_bow matches 4 if score @s exp_bow >= level4 exp_bow run function expt:bow_up
-execute if score @s lvl_bow matches 5 if score @s exp_bow >= level5 exp_bow run function expt:bow_up
-execute if score @s lvl_bow matches 6 if score @s exp_bow >= level6 exp_bow run function expt:bow_up

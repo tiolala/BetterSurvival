@@ -6,6 +6,9 @@ execute if predicate expt:holdingsword run function expt:sword/orb
 #axes
 execute if predicate expt:holdingaxe run function expt:axe/orb
 
+#Bows
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:bow"}}] run function expt:bow/orb
+
 #crossbows
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run function expt:crossbow/orb
 

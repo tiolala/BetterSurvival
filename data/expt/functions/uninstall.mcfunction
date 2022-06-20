@@ -1,5 +1,7 @@
 #expt:uninstall
 
+scoreboard objectives remove no_grav_index
+
 scoreboard objectives remove exp_sword
 scoreboard objectives remove exp_axe
 scoreboard objectives remove exp_pickaxe
