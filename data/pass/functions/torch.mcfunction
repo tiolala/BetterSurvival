@@ -1,3 +1,3 @@
 #pass:torch
 
-execute unless entity @e[tag=pass-torch,distance=..1] run function pass:torch_make
+execute positioned ~ ~1 ~ unless entity @e[tag=pass-torch,distance=..1] run function pass:torch_make
