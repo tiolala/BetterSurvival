@@ -3,14 +3,10 @@
 #execute if score @s wandmana matches 1 run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~
 #execute if score @s wandmana matches 1 run particle minecraft:portal ^-0.5 ^0.5 ^1 0.1 0.1 0.1 0.01 100 force
 
-tag @s remove ttag01
-function gems:metal_me
-execute if entity @s[tag=!ttag01] if score @s wandmana matches ..239 run scoreboard players add @s wandmana 2
-tag @s remove ttag01
+#mana
+function gems:replanish_mana
 
-execute if score @s wandmana matches 241.. run scoreboard players set @s wandmana 240
-execute if score @s wandmana matches ..-1 run scoreboard players set @s wandmana 0
-
+execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:soul_lantern", Count:1b}}] at @s run function gems:proxy_soul_to_xp
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:soul_lantern", Count:8b}}] at @s run function gems:soul_upgrade
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{id:"minecraft:crying_obsidian", Count:1b}}] at @s run function gems:crying_obsidian
 execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:item,distance=..2] at @s if block ~ ~-1 ~ minecraft:smithing_table if entity @s[nbt={Item:{tag:{gems:["ready"]}}}] run function gems:gem_in_table

@@ -48,8 +48,6 @@ scoreboard objectives add m_emerald_ore minecraft.mined:minecraft.emerald_ore
 scoreboard objectives add m_d_emerald_ore minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add m_lapis_ore minecraft.mined:minecraft.lapis_ore
 scoreboard objectives add m_d_lapis_ore minecraft.mined:minecraft.deepslate_lapis_ore
-scoreboard objectives add m_diamond_ore minecraft.mined:minecraft.diamond_ore
-scoreboard objectives add m_d_diamond_ore minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add m_n_gold_ore minecraft.mined:minecraft.nether_gold_ore
 scoreboard objectives add m_n_quartz_ore minecraft.mined:minecraft.nether_quartz_ore
 

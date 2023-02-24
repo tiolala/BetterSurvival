@@ -12,4 +12,4 @@ execute if score Expt-act config matches 1 if score @s lvl_bow matches 6 run tit
 execute if score Expt-act config matches 1 if score @s lvl_bow matches 7 run title @s actionbar ["",{"text":"Bow mastery: ","color":"gold"},{"score":{"name":"@s","objective":"exp_bow"}},{"text":" / "},{"score":{"name":"level7","objective":"exp_bow"}}]
 execute if score Expt-act config matches 1 if score @s lvl_bow matches 8 run title @s actionbar ["",{"text":"Bow mastery: ","color":"gold"},{"score":{"name":"@s","objective":"exp_bow"}},{"text":" / "},{"score":{"name":"level8","objective":"exp_bow"}}]
 execute if score Expt-act config matches 1 if score @s lvl_bow matches 9 run title @s actionbar ["",{"text":"Bow mastery: ","color":"gold"},{"score":{"name":"@s","objective":"exp_bow"}},{"text":" / "},{"score":{"name":"level9","objective":"exp_bow"}}]
-execute if score Expt-act config matches 1 if score @s lvl_bow matches 10 run title @s actionbar ["",{"text":"Bow mastery: ","color":"gold"},{"text":"Max Level"}]
+execute if score Expt-act config matches 1 if score @s lvl_bow matches 10 run title @s actionbar ["",{"text":"Bow mastery: ","color":"gold"},{"text":"Max level"}]

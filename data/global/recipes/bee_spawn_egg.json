@@ -1,16 +1,19 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-      " b ",
-      "bpb",
-      " b "
+      " g ",
+      "cbc",
+      " c "
   ],
   "key": {
-      "p": {
-          "item": "minecraft:ender_pearl"
+      "g": {
+          "item": "minecraft:glass"
       },
       "b": {
           "item": "minecraft:bee_nest"
+      },
+      "c": {
+          "item": "minecraft:copper_ingot"
       }
   },
   "result": {

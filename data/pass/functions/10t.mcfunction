@@ -15,6 +15,10 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:torch"}]}] if sco
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_torch"}]}] if score Pass_torch config matches 1 run function pass:torch
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lantern"}]}] if score Pass_torch config matches 1 run function pass:torch
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_lantern"}]}] if score Pass_torch config matches 1 run function pass:torch
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:torch"}}] if score Pass_torch config matches 1 run function pass:torch
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:soul_torch"}}] if score Pass_torch config matches 1 run function pass:torch
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:lantern"}}] if score Pass_torch config matches 1 run function pass:torch
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:soul_lantern"}}] if score Pass_torch config matches 1 run function pass:torch
 execute as @e[tag=pass-torch] at @s unless entity @p[distance=..2] run function pass:torch_kill
 
 #Golden armor

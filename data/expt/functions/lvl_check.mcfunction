@@ -59,3 +59,13 @@ execute if score @s lvl_pickaxe matches 6 if score @s exp_pickaxe >= level6 exp_
 execute if score @s lvl_pickaxe matches 7 if score @s exp_pickaxe >= level7 exp_pickaxe run function expt:pickaxe/lvl_up
 execute if score @s lvl_pickaxe matches 8 if score @s exp_pickaxe >= level8 exp_pickaxe run function expt:pickaxe/lvl_up
 execute if score @s lvl_pickaxe matches 9 if score @s exp_pickaxe >= level9 exp_pickaxe run function expt:pickaxe/lvl_up
+
+execute if score @s lvl_wand matches 1 if score @s exp_wand >= level1 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 2 if score @s exp_wand >= level2 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 3 if score @s exp_wand >= level3 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 4 if score @s exp_wand >= level4 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 5 if score @s exp_wand >= level5 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 6 if score @s exp_wand >= level6 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 7 if score @s exp_wand >= level7 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 8 if score @s exp_wand >= level8 exp_wand run function expt:wand/lvl_up
+execute if score @s lvl_wand matches 9 if score @s exp_wand >= level9 exp_wand run function expt:wand/lvl_up

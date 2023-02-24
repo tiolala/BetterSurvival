@@ -25,8 +25,6 @@ execute as @a[scores={m_d_emerald_ore=1..}] at @s run function global:mined_ore
 execute as @a[scores={m_emerald_ore=1..}] at @s run function global:mined_ore
 execute as @a[scores={m_d_lapis_ore=1..}] at @s run function global:mined_ore
 execute as @a[scores={m_lapis_ore=1..}] at @s run function global:mined_ore
-execute as @a[scores={m_d_diamond_ore=1..}] at @s run function global:mined_ore
-execute as @a[scores={m_diamond_ore=1..}] at @s run function global:mined_ore
 execute as @a[scores={m_n_gold_ore=1..}] at @s run function global:mined_ore
 execute as @a[scores={m_n_quartz_ore=1..}] at @s run function global:mined_ore
 

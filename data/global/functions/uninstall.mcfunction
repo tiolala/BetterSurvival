@@ -49,9 +49,7 @@ scoreboard objectives remove m_redstone_ore
 scoreboard objectives remove m_d_emerald_ore 
 scoreboard objectives remove m_emerald_ore 
 scoreboard objectives remove m_d_lapis_ore 
-scoreboard objectives remove m_lapis_ore 
-scoreboard objectives remove m_d_diamond_ore 
-scoreboard objectives remove m_diamond_ore 
+scoreboard objectives remove m_lapis_ore
 scoreboard objectives remove m_n_gold_ore 
 scoreboard objectives remove m_n_quartz_ore 
 

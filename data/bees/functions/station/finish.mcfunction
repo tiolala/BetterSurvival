@@ -1,4 +1,4 @@
-#finish_station
+#bees:station/finish
 
 execute align xyz run tp @s ~0.5 ~-0.4 ~0.5
 execute align xyz run setblock ~ ~ ~ minecraft:bee_nest

@@ -1,11 +1,11 @@
-#10t
+#bees:bee/10t
 
-tag @e[tag=temp] remove temp
+tag @e[tag=ttag01] remove ttag01
 
-execute as @e[tag=bee_station] if score @s idunico = @e[limit=1,sort=nearest,tag=working_bee] idunico run tag @s add temp
-execute unless entity @e[tag=temp] run kill @s
+execute as @e[tag=bee_station] if score @s idunico = @e[limit=1,sort=nearest,tag=working_bee] ownerid run tag @s add ttag01
+execute unless entity @e[tag=ttag01] run kill @s
 
-tag @e[tag=temp] remove temp
+tag @e[tag=ttag01] remove ttag01
 
 effect give @s minecraft:instant_health 1 1
 

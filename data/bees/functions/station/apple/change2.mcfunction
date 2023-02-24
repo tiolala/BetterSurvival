@@ -1,4 +1,4 @@
-#change2_apple
+#bees:station/apple/change2
 
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_apple",Count:1b}}]
 tag @s remove waiting

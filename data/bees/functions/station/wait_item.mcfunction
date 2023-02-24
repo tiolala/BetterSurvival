@@ -1,9 +1,9 @@
-#station_item
+#bees:station/wait_item
 
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_axe",Count:1b}}] run function bees:station/change2_axe
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:tnt",Count:1b}}] run function bees:station/change2_tnt
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_pickaxe",Count:1b}}] run function bees:station/change2_pickaxe
-execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_apple",Count:1b}}] run function bees:station/change2_apple
+execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_apple",Count:1b}}] run function bees:station/apple/change2
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:honey_block",Count:1b}}] run function bees:station/change2_honey
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:oak_sapling",Count:1b}}] run function bees:station/change2_sapling
 execute if entity @s[tag=waiting] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:spruce_sapling",Count:1b}}] run function bees:station/change2_sapling

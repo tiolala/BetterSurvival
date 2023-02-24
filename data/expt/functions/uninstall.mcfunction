@@ -10,6 +10,7 @@ scoreboard objectives remove exp_hoe
 scoreboard objectives remove exp_trident
 scoreboard objectives remove exp_bow
 scoreboard objectives remove exp_crossbow
+scoreboard objectives remove exp_wand
 
 scoreboard objectives remove lvl_sword
 scoreboard objectives remove lvl_axe
@@ -19,6 +20,7 @@ scoreboard objectives remove lvl_hoe
 scoreboard objectives remove lvl_trident
 scoreboard objectives remove lvl_bow
 scoreboard objectives remove lvl_crossbow
+scoreboard objectives remove lvl_wand
 
 scoreboard players reset Expt-act config
 

@@ -18,8 +18,11 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident"}}] run function e
 #pickaxes
 execute if predicate expt:holdingpickaxe run function expt:pickaxe/orb
 
+#wands
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] run function expt:wand/orb
+
 #clean
-execute if entity @s[tag=orbme] run kill @e[type=minecraft:experience_orb,distance=..2,limit=1,sort=nearest]
+execute if entity @s[tag=orbme] at @s align xyz positioned ~-2 ~-2 ~-2 run kill @e[type=minecraft:experience_orb,dx=2,dy=3,dz=2,limit=1,sort=nearest]
 execute if entity @s[tag=orbme] run tag @s remove orbme
 
 #check

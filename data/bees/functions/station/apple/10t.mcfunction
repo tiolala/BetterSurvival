@@ -1,4 +1,4 @@
-#10t_apple
+#bees:station/apple/10t
 
 scoreboard players add @s timer 1
 execute if score @s timer matches 4.. run scoreboard players set @s timer 0

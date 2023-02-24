@@ -14,8 +14,6 @@ scoreboard players set @s m_d_emerald_ore 0
 scoreboard players set @s m_emerald_ore 0
 scoreboard players set @s m_d_lapis_ore 0
 scoreboard players set @s m_lapis_ore 0
-scoreboard players set @s m_d_diamond_ore 0
-scoreboard players set @s m_diamond_ore 0
 scoreboard players set @s m_n_gold_ore 0
 scoreboard players set @s m_n_quartz_ore 0
 
