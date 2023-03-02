@@ -1,4 +1,4 @@
-#change2_pickaxe
+#bees:station/pickaxe/change2
 
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:golden_pickaxe",Count:1b}}]
 tag @s remove waiting

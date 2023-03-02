@@ -1,4 +1,4 @@
-#change2_scarecrow
+#bees:station/scarecrow/change2
 
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:carved_pumpkin",Count:1b}}]
 tag @s remove waiting

@@ -10,7 +10,7 @@ execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=
 execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=1,sort=nearest] if entity @e[distance=..0.1,tag=sapling] run tag @s add sapling
 execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=1,sort=nearest] if entity @e[distance=..0.1,tag=rail] run tag @s add rail
 execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=1,sort=nearest] if entity @e[distance=..0.1,tag=fishing] run tag @s add fishing
-execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=1,sort=nearest] if entity @e[distance=..0.1,tag=atk] run tag @s add atk
+execute as @e[tag=unfinished,tag=station_aux] at @s at @e[tag=bee_station,limit=1,sort=nearest] if entity @e[distance=..0.1,tag=sword] run tag @s add sword
 
 execute as @e[tag=unfinished,tag=station_aux] store result score @s ownerid run scoreboard players get @e[tag=bee_station,limit=1,sort=nearest] idunico
 

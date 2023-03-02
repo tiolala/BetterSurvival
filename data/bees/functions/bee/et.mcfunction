@@ -1,5 +1,6 @@
 #bees:bee/et
 
+execute if entity @s[tag=carry_item] as @e[type=item,sort=nearest,distance=..2] run data modify entity @s Motion[1] set value 0.04d
 execute if entity @s[tag=carry_item] run tp @e[type=item,sort=nearest,distance=..2] ~ ~ ~
 
 tag @e[tag=ttag01] remove ttag01
