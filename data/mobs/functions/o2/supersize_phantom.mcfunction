@@ -2,7 +2,7 @@
 
 tag @e[tag=unfinished] remove unfinished
 
-summon phantom ~ ~ ~ {DeathLootTable:"mobs:small_soul",Health:60f,Size:8,Tags:["supersize","one_time"],Passengers:[{id:"minecraft:skeleton",Health:60f,Tags:["unfinished"],Attributes:[{Name:"generic.max_health",Base:60}]}],Attributes:[{Name:"generic.max_health",Base:60}]}
+summon phantom ~ ~ ~ {DeathLootTable:"mobs:small_soul",Health:20f,Size:4,Tags:["supersize","one_time"],Passengers:[{id:"minecraft:skeleton",Health:40f,Tags:["unfinished"],Attributes:[{Name:"generic.max_health",Base:20}]}],Attributes:[{Name:"generic.max_health",Base:40}]}
 
 execute as @e[tag=unfinished] run function mobs:o2/supersize_skeleton
 

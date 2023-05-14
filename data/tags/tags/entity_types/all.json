@@ -72,7 +72,8 @@
         "minecraft:zoglin",
         "minecraft:zombie",
         "minecraft:zombie_villager",
-
+        
+        "minecraft:warden",
         "minecraft:wither",
         "minecraft:ender_dragon"
     ]
