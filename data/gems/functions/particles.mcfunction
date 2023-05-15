@@ -40,4 +40,7 @@ execute if entity @s[nbt={SelectedItem:{tag:{gems:["yellow"]}}}] run particle mi
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["yellow"]}}}] run particle minecraft:dust 1.0 1.0 0.3 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
 
 execute if entity @s[nbt={SelectedItem:{tag:{gems:["lime"]}}}] run particle minecraft:dust 1.0 1.0 0.0 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["lime"]}}}] run particle minecraft:dust 0.0 1 0.0 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["lime"]}}}] run particle minecraft:dust 0.0 1.0 0.0 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
+
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["green"]}}}] run particle minecraft:dust 0.0 0.8 0.0 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["green"]}}}] run particle minecraft:dust 0.0 0.5 0.0 0.5 ~ ~ ~ 0.25 0.25 0.25 0.01 1 force @s
