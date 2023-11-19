@@ -19,7 +19,7 @@ execute if score @s aux matches 4 run scoreboard players set POS1 param 240
 
 execute unless entity @e[tag=ttag01] run scoreboard players reset @e[scores={hurttime=0..}] hurttime
 execute unless entity @e[tag=ttag01] as @e[distance=..6] store result score @s hurttime run data get entity @s HurtTime
-execute unless entity @e[tag=ttag01] as @e[distance=..6,scores={hurttime=10}] run function efct:charge/me
+execute unless entity @e[tag=ttag01] as @e[distance=..6,scores={hurttime=1..10}] run function efct:charge/me
 
 #execute unless entity @e[tag=ttag01] run summon armor_stand ~ ~ ~ {Marker:1b, Tags: ["test_01"]}
 #execute unless entity @e[tag=ttag01] positioned ^ ^ ^2 positioned ~ ~-1 ~ run summon armor_stand ~ ~ ~ {Marker:1b, Tags: ["test_01"],NoBasePlate:1b}

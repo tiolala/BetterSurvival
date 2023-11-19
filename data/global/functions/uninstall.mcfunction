@@ -54,3 +54,5 @@ scoreboard objectives remove m_n_gold_ore
 scoreboard objectives remove m_n_quartz_ore 
 
 tag @e remove one_time
+
+gamerule keepInventory false

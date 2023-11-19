@@ -64,3 +64,4 @@ scoreboard players set c100 const 100
 scoreboard players set c1000 const 1000
 
 gamerule doLimitedCrafting true
+gamerule keepInventory true

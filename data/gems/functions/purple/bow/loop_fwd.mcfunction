@@ -18,7 +18,7 @@ execute if entity @e[tag=ttag01] run tp @s @e[tag=ttag01,limit=1]
 
 execute unless entity @e[tag=ttag01] run scoreboard players reset @e[scores={hurttime=0..}] hurttime
 execute unless entity @e[tag=ttag01] as @e[distance=..6] store result score @s hurttime run data get entity @s HurtTime
-execute unless entity @e[tag=ttag01] at @e[distance=..6,scores={hurttime=10},limit=1,sort=nearest] positioned ~ ~1 ~ run function gems:purple/bow/start_black_hole
+execute unless entity @e[tag=ttag01] at @e[distance=..6,scores={hurttime=1..10},limit=1,sort=nearest] positioned ~ ~1 ~ run function gems:purple/bow/start_black_hole
 
 #execute unless entity @e[tag=ttag01] run summon armor_stand ~ ~ ~ {Marker:1b, Tags: ["test_01"]}
 #execute unless entity @e[tag=ttag01] positioned ^ ^ ^2 positioned ~ ~-1 ~ run summon armor_stand ~ ~ ~ {Marker:1b, Tags: ["test_01"],NoBasePlate:1b}

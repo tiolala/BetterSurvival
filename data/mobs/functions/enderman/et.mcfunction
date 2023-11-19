@@ -1,4 +1,5 @@
 #mobs:enderman/et
 
-execute if entity @s[tag=o3,nbt={HurtTime:9s}] run spreadplayers ~ ~ 0 32 false @e[type=player, distance=..32]
-execute if entity @s[tag=!o3,nbt={HurtTime:9s}] run spreadplayers ~ ~ 0 16 false @e[type=player, distance=..16]
+execute if entity @s[tag=!bonded, nbt={HurtTime:9s}] at @s run function mobs:enderman/bond_me
+
+execute if entity @s[tag=bonded] run function mobs:enderman/pull_bonded

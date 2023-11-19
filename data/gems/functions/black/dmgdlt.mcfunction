@@ -7,5 +7,5 @@ execute if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run scoreboard playe
 
 scoreboard players reset @e[scores={hurttime=0..}] hurttime
 execute anchored eyes positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[distance=..2.5] store result score @s hurttime run data get entity @s HurtTime
-execute anchored eyes positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[distance=..2.5,scores={hurttime=10},limit=1,sort=nearest] run function efct:curse/me
+execute anchored eyes positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[distance=..2.5,scores={hurttime=1..10},limit=1,sort=nearest] run function efct:curse/me
 function efct:curse/recoil
