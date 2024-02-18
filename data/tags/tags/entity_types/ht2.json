@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values":[
-        "minecraft:enderman",
         "minecraft:guardian",
         "minecraft:piglin",
         "minecraft:zombified_piglin",
