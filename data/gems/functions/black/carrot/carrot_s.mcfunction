@@ -9,7 +9,6 @@ tag @e[tag=unfinished] remove unfinished
 
 execute unless score wandBloop flag matches 1 run function gems:black/carrot/loop
 
-execute if score @s wandmana matches 10.. run scoreboard players remove @s wandmana 10
+execute if score @s wandmana matches 20.. run scoreboard players remove @s wandmana 20
 scoreboard players set @s wandcd 5
-scoreboard players set POS1 param 1
 function efct:curse/recoil

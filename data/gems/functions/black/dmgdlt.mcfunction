@@ -1,9 +1,9 @@
 #gems:black/dmgdlt
 
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["1"]}}}] run scoreboard players set POS1 param 1
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["2"]}}}] run scoreboard players set POS1 param 2
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["3"]}}}] run scoreboard players set POS1 param 3
-execute if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run scoreboard players set POS1 param 4
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["1"]}}}] run scoreboard players set POS1 param 100
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["2"]}}}] run scoreboard players set POS1 param 150
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["3"]}}}] run scoreboard players set POS1 param 200
+execute if entity @s[nbt={SelectedItem:{tag:{gems:["4"]}}}] run scoreboard players set POS1 param 300
 
 scoreboard players reset @e[scores={hurttime=0..}] hurttime
 execute anchored eyes positioned ^ ^ ^2 positioned ~ ~-1 ~ as @e[distance=..2.5] store result score @s hurttime run data get entity @s HurtTime
