@@ -11,4 +11,4 @@ tag @e[tag=unfinished] remove unfinished
 execute unless score wandMloop flag matches 1 run function gems:magenta/carrot/loop
 
 execute if score @s wandmana matches 15.. run scoreboard players remove @s wandmana 15
-scoreboard players set @s wandcd 10
+scoreboard players set @s wandcd 5
