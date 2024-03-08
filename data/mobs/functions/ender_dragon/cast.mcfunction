@@ -4,9 +4,9 @@ execute if entity @s[tag=bats] run function mobs:ender_dragon/cast_bat
 execute if entity @s[tag=knights] run function mobs:ender_dragon/cast_knights
 execute if entity @s[tag=magic] run function mobs:ender_dragon/cast_magic
 
-execute if entity @s[tag=magic] run scoreboard player set @s cooldown 400
-execute if entity @s[tag=bats] run scoreboard player set @s cooldown 800
-execute if entity @s[tag=knights] run scoreboard player set @s cooldown 1200
+execute if entity @s[tag=magic] run scoreboard players set @s cooldown 400
+execute if entity @s[tag=bats] run scoreboard players set @s cooldown 800
+execute if entity @s[tag=knights] run scoreboard players set @s cooldown 1200
 
 tag @s remove bats
 tag @s remove knights

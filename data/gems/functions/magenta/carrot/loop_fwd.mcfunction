@@ -15,5 +15,3 @@ tag @e[tag=ttag01] remove ttag01
 execute unless block ~ ~ ~ #tags:airs run kill @s
 
 tp @s ^ ^ ^0.2
-
-execute positioned ~ ~ ~1 run effect give @a[dx=2,dy=1,dz=1] blindness 1 0
