@@ -1,3 +1,3 @@
-#mobs:reward/ht1
+#mobs:reward/killht2
 
 advancement revoke @s only mobs:killht2
