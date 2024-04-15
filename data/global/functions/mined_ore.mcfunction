@@ -20,4 +20,3 @@ scoreboard players set @s m_n_quartz_ore 0
 #function pass:mined_ore
 function expt:mined_ore
 #function gems:mined_ore
-#function bees:mined_ore

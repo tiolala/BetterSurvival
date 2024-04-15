@@ -4,7 +4,6 @@ function global:install
 function pass:install
 function expt:install
 function gems:install
-function bees:install
 function efct:install
 function mobs:install
 

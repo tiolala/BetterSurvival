@@ -5,4 +5,3 @@ scoreboard players set @s dmgtkn 0
 #function pass:dmgtkn
 #function expt:dmgtkn
 function gems:dmgtkn
-#function bees:dmgtkn
