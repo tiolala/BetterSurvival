@@ -1,4 +1,5 @@
 #pass:spyglass/fwdloop
+#1.20.5
 #tags: ttag01
 
 scoreboard players remove @e[tag=ttag01] index 1

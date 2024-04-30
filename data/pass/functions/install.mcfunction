@@ -1,4 +1,5 @@
 #pass:install
+#1.20.5
 
 #scoreboard objectives add snkely dummy
 scoreboard objectives add snkleather dummy

@@ -1,4 +1,5 @@
 #pass:clock
+#1.20.5
 
 execute store result score #GC tick run time query daytime
 

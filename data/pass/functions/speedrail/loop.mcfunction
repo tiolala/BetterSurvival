@@ -1,4 +1,5 @@
-#pass:speedrail_loop
+#pass:speedrail/loop
+#1.20.5
 
 execute unless score speedrail aux matches 1 run scoreboard players set speedrail aux 1
 
@@ -12,4 +13,4 @@ execute as @e[tag=speedrail,type=minecraft:arrow] at @s if entity @a[distance=..
 execute as @e[tag=speedrail,type=minecraft:arrow] at @s unless entity @a[distance=..5] run kill @s
 
 execute unless entity @e[tag=speedrail,type=minecraft:arrow] run scoreboard players reset speedrail aux
-execute if entity @e[tag=speedrail,type=minecraft:arrow] run schedule function pass:speedrail_loop 1t
+execute if entity @e[tag=speedrail,type=minecraft:arrow] run schedule function pass:speedrail/loop 1t

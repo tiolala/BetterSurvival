@@ -1,4 +1,5 @@
 #pass:c_expb
+#1.20.5
 
 execute as @s[level=1..] run give @s minecraft:experience_bottle
 execute as @s[level=2..] run give @s minecraft:experience_bottle

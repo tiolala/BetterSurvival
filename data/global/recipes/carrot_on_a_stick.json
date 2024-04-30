@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:carrot_on_a_stick",
+        "id": "minecraft:carrot_on_a_stick",
         "count": 1
     }
 }

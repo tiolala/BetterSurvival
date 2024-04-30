@@ -1,4 +1,6 @@
 #pass:death/set_health
+#1.20.5
+#TODO: Transformar em Macro
 
 execute if score POS1 param matches 1 run attribute @s generic.max_health base set 1
 execute if score POS1 param matches 2 run attribute @s generic.max_health base set 2

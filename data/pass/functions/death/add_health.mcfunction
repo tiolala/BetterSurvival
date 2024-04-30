@@ -1,4 +1,5 @@
 #pass:death/add_health
+#1.20.5
 
 execute store result score POS1 param run attribute @s generic.max_health base get
 scoreboard players add POS1 param 1

@@ -9,7 +9,7 @@
 		}
     ],
     "result": {
-        "item": "minecraft:experience_bottle",
+        "id": "minecraft:experience_bottle",
         "count": 1
     }
 }

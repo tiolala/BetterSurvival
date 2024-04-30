@@ -1,4 +1,5 @@
-#pass:speedrail
+#pass:speedrail/start
+#1.20.5
 
 function global:cords
 execute as @p run function global:cords
@@ -10,4 +11,4 @@ execute if block ~ ~ ~ rail[shape=east_west] if score @s xcord > @p xcord run su
 kill @e[type=item,limit=1,distance=..2,nbt={Item:{id:"minecraft:arrow"}}]
 kill @s
 
-execute unless score speedrail aux matches 1 run function pass:speedrail_loop
+execute unless score speedrail aux matches 1 run function pass:speedrail/loop

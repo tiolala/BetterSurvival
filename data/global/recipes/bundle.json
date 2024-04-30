@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "pattern": [
         "srs",
         "r r",
@@ -14,7 +14,8 @@
         }
     },
     "result": {
-        "item": "minecraft:bundle",
+        "id": "minecraft:bundle",
         "count": 1
     }
   }
+  

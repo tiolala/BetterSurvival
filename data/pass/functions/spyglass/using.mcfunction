@@ -1,4 +1,5 @@
 #pass:spyglass/using
+#1.20/5
 
 advancement revoke @s only pass:spyglass_usage
 

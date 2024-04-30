@@ -1,11 +1,12 @@
 #pass:et
+#1.20.5
 
 #speedrail
-execute as @e[type=minecraft:item,distance=..5] if entity @s[nbt={Item:{id:"minecraft:phantom_membrane"}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] if block ~ ~ ~ rail run function pass:speedrail
+execute as @e[type=minecraft:item,distance=..5] if entity @s[nbt={Item:{id:"minecraft:phantom_membrane"}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:arrow"}}] if block ~ ~ ~ rail run function pass:speedrail/start
 
 #snk leather
 execute if entity @s[tag=snkleather] run scoreboard players add @s snkleather 1
-execute if entity @s[tag=snkleather] if score @s snkleather matches 2 run function pass:snkleather_off
+execute if entity @s[tag=snkleather] if score @s snkleather matches 2 run function pass:snkleather/off
 
 #clock and compass
 execute if score Pass_clock config matches 1 if entity @s[nbt={Inventory:[{id:"minecraft:clock",Slot:-106b}]}] run function pass:clock

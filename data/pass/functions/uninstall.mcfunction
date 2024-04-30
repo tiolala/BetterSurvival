@@ -1,4 +1,5 @@
 #pass:unistall
+#1.20.5
 
 #scoreboard objectives remove snkely
 scoreboard objectives remove snkleather

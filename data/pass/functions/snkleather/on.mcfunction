@@ -1,4 +1,5 @@
-#pass:snkleather_on
+#pass:snkleather/on
+#1.20.5
 
 tag @s add snkleather
 
