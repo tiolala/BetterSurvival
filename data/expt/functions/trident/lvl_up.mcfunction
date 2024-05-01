@@ -1,4 +1,5 @@
 #expt:trident/lvl_up
+#1.20.5
 
 scoreboard players add @s lvl_trident 1
 title @s title ""

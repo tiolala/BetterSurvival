@@ -4,7 +4,7 @@
     "predicate": {
       "equipment": {
         "mainhand": {
-          "tag": "tags:pickaxes"
+          "items": "#tags:pickaxes"
         }
       }
     }

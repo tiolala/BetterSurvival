@@ -1,4 +1,5 @@
 #expt:lvl_check
+#1.20.5
 
 execute if score @s lvl_sword matches 1 if score @s exp_sword >= level1 exp_sword run function expt:sword/lvl_up
 execute if score @s lvl_sword matches 2 if score @s exp_sword >= level2 exp_sword run function expt:sword/lvl_up

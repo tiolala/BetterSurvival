@@ -1,4 +1,5 @@
 #expt:pickaxe/orb
+#1.20.5
 
 execute unless score @s lvl_pickaxe matches 10 run scoreboard players add @s exp_pickaxe 1
 execute unless score @s lvl_pickaxe matches 10 run tag @s add orbme

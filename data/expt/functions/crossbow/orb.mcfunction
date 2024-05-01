@@ -1,4 +1,5 @@
 #expt:crossbow/orb
+#1.20.5
 
 execute unless score @s lvl_crossbow matches 10 run scoreboard players add @s exp_crossbow 1
 execute unless score @s lvl_crossbow matches 10 run tag @s add orbme

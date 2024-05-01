@@ -1,4 +1,5 @@
 #expt:crossbow/shot_cb
+#1.20.5
 
 execute if score @s lvl_crossbow matches 2 anchored eyes positioned ^ ^ ^ as @e[type=arrow,limit=1,sort=nearest,distance=..1] run data modify entity @s damage set value 2.25
 execute if score @s lvl_crossbow matches 3 anchored eyes positioned ^ ^ ^ as @e[type=arrow,limit=1,sort=nearest,distance=..1] run data modify entity @s damage set value 2.5

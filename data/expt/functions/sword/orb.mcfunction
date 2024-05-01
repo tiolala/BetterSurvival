@@ -1,4 +1,5 @@
 #expt:sword/orb
+#1.20.5
 
 execute unless score @s lvl_sword matches 10 run scoreboard players add @s exp_sword 1
 execute unless score @s lvl_sword matches 10 run tag @s add orbme

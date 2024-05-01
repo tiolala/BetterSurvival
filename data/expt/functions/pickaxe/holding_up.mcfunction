@@ -1,4 +1,5 @@
 #expt:pickaxe/holding_up
+#1.20.5
 
 tag @s add holdingpickaxe
 

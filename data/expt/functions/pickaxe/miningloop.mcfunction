@@ -1,4 +1,5 @@
 #expt:pickaxe/miningloop
+#1.20.5
 #tags: expt_more; mine_here, ttag01
 
 summon minecraft:marker ~ ~ ~ {Tags:["mine_here"]}

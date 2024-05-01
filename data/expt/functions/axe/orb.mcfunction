@@ -1,4 +1,5 @@
 #expt:axe/orb
+#1.20.5
 
 execute unless score @s lvl_axe matches 10 run scoreboard players add @s exp_axe 1
 execute unless score @s lvl_axe matches 10 run tag @s add orbme

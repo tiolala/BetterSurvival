@@ -1,4 +1,5 @@
 #gems:blue/carrot/water_me
+#1.20.5
 
 data modify entity @s Fire set value 0
 

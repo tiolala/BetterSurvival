@@ -1,4 +1,5 @@
 #expt:pickaxe/startmining
+#1.20.5
 #tags: expt_more, ttag01
 
 execute at @s align xyz positioned ~.5 ~.5 ~.5 run tp @s ~ ~ ~

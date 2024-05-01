@@ -1,4 +1,5 @@
 #expt:trident/orb
+#1.20.5
 
 execute unless score @s lvl_trident matches 10 run scoreboard players add @s exp_trident 1
 execute unless score @s lvl_trident matches 10 run tag @s add orbme

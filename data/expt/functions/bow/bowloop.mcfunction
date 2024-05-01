@@ -1,4 +1,5 @@
 #expt:bow/bowloop
+#1.20.5
 
 scoreboard players set bowExptloop flag 1
 

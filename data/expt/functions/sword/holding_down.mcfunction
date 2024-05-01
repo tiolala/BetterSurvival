@@ -1,4 +1,5 @@
 #expt:sword/holding_down
+#1.20.5
 
 tag @s remove holdingsword
 

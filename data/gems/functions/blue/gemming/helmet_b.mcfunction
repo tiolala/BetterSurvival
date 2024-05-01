@@ -1,4 +1,6 @@
 #gems:blue/gemming/helmet_b
+#1.20.5
 
-data merge entity @s {Item:{tag:{display:{Lore:['{"text":"Boss Blue Gem"}']},gems:["blue","gemed","4"],Enchantments:[{id:"minecraft:respiration",lvl:4s}]}}}
+data merge entity @s {Item:{components:{"minecraft:lore":['{"color":"blue","italic":false,"text":"Boss Water Magic"}'],"minecraft:custom_data":{gems:["blue","gemed","4"]},"minecraft:enchantment_glint_override":true}}}
+data merge entity @s {Item:{components:{"minecraft:enchantments":{levels:{"minecraft:respiration":4}}}}}
 execute align xyz run kill @e[type=item,nbt={Item:{id:"minecraft:blue_glazed_terracotta"}},dx=0,dy=0,dz=0]

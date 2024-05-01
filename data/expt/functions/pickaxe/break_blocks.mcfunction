@@ -1,4 +1,5 @@
 #expt:pickaxe/break_blocks
+#1.20.5
 #tags: expt_more, ttag01
 
 execute as @a[tag=ttag01] if score @s lvl_pickaxe matches 2 at @e[tag=expt_more] at @e[tag=mine_here, distance=..0.5] if block ~ ~ ~ #tags:ores run setblock ~ ~ ~ air destroy

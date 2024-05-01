@@ -1,4 +1,5 @@
 #expt:sword/lvl_up
+#1.20.5
 
 scoreboard players add @s lvl_sword 1
 title @s title ""

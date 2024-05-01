@@ -1,7 +1,6 @@
 #efct:curse/me
+#1.20.5
 #tags: ttag01
-
-execute at @s positioned ~ ~0.75 ~ run particle minecraft:item minecraft:coal_block ~ ~ ~ 0.25 0.5 0.25 0.05 10
 
 scoreboard players operation @s curse += POS1 param
 

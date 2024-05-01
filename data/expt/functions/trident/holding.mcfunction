@@ -1,4 +1,5 @@
 #expt:trident/holding
+#1.20.5
 
 execute if score @s lvl_trident matches 1 anchored eyes positioned ^ ^ ^ unless block ~ ~ ~ water run effect give @s minecraft:water_breathing 11 0
 execute if score @s lvl_trident matches 2 anchored eyes positioned ^ ^ ^ unless block ~ ~ ~ water run effect give @s minecraft:water_breathing 21 0
