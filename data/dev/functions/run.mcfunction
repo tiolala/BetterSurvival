@@ -1,34 +1,4 @@
 #dev:run
 
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
-summon minecraft:experience_orb ~1 ~ ~
+summon item ~ ~ ~ {Item:{id:"minecraft:cyan_glazed_terracotta" ,count:1,components:{"minecraft:custom_name":'{"color":"blue","italic":false,"text":"Small Cyan Gem"}',"minecraft:lore":['{"color":"gray","italic":false,"text":"Explosion magic"}'],"minecraft:custom_data":{gems:["gem", "cyan", "ready", "1"]},"minecraft:enchantment_glint_override":true}}}
+summon item ~ ~ ~ {Item:{id:"minecraft:black_glazed_terracotta",count:1,components:{"minecraft:custom_name":'{"color":"blue","italic":false,"text":"Boss Black Gem"}',"minecraft:lore":['{"color":"gray","italic":false,"text":"Curse magic"}'],"minecraft:custom_data":{gems:["gem", "black", "ready", "4"]},"minecraft:enchantment_glint_override":true}}}

@@ -1,4 +1,5 @@
 #gems:cyan/bow/new_arrow
+#1.20.5
 #tags: ttag01
 
 tag @s add bowshot

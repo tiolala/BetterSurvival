@@ -1,23 +1,12 @@
-#et
-
-#execute as @e[type=minecraft:item,distance=..5] if entity @s[nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] unless entity @s[nbt={Item:{tag:{wand:["wand"]}}}] at @s if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:ender_eye"}}] run function wand:wand_me
-#execute as @e[type=minecraft:item,distance=..5] if entity @s[nbt={Item:{id:"minecraft:carrot_on_a_stick",tag:{wand:["empty"]}}}] at @s run function wand:empty_ground
-
-#execute if entity @s[tag=charged] run scoreboard players add @s charge 1
-#execute if entity @s[tag=charged] if score @s charge matches 2 run function gems:charge_off
-
-#execute if entity @s[nbt={SelectedItem:{tag:{gems:["wand"]}}}] if score @s wandcd matches 120.. anchored eyes positioned ^-0.6 ^ ^1 run function gems:particles
+#gems:et
+#1.20.5
 
 #wandcd
 execute if score @s wandcd matches 1.. run scoreboard players remove @s wandcd 1
 execute if score @s wandcd matches ..-1 run scoreboard players set @s wandcd 0
 
 #boots
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gems:["gemed","red"]}}]}] run function gems:red/boots
+execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{gems:["red","gemed"]}}}]}] run function gems:red/boots
 
 execute if entity @s[tag=!snk_hld_w, scores={snk_hld_w=1..}] run function gems:white/boots_release 
 tag @s remove snk_hld_w
-
-#misc (unrevamped)
-execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gems:["gemed","black"]}}]}] run function gems:black/chestplate
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:trident",tag:{gems:["magenta"]}}}] run function gems:magenta/trident

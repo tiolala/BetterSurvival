@@ -1,4 +1,5 @@
 #gems:cyan/carrot/boom
+#1.20.5
 
 execute if score @s aux matches 1 run summon creeper ~ ~ ~ {ExplosionRadius:1,Fuse:-1s,Tags:["one_time"]}
 execute if score @s aux matches 2 run summon creeper ~ ~ ~ {ExplosionRadius:3,Fuse:-1s,Tags:["one_time"]}

@@ -1,4 +1,5 @@
-#gems:black/carrot/carrot_m
+#gems:lime/carrot/carrot_m
+#1.20.5
 
 execute at @s at @e[type=experience_orb, distance=..32] run summon creeper ~ ~ ~ {ExplosionRadius:2b,Fuse:-1s}
 

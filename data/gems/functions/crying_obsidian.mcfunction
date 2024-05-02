@@ -1,4 +1,5 @@
 #crying_obsidian
+#1.20.5
 
 tag @e[tag=ttag01] remove ttag01
 execute if entity @e[type=item,distance=..1,nbt={Item:{components:{"minecraft:custom_data":{Soul:1b}}}}] run tag @s add ttag01

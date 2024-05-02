@@ -1,4 +1,5 @@
 #gems:light_blue/bow/loop
+#1.20.5
 
 scoreboard players set bowLBloop flag 1
 

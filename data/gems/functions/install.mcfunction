@@ -1,4 +1,5 @@
 #install
+#1.20.5
 
 scoreboard objectives add wandmana dummy "Mana"
 scoreboard objectives add wandcd dummy

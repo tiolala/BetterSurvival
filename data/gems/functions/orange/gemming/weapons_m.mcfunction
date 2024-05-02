@@ -1,4 +1,6 @@
 #gems:orange/gemming/weapons_m
+#1.20.5
 
-data merge entity @s {Item:{tag:{display:{Lore:['{"text":"Medium Orange Gem"}']},gems:["orange","gemed","2"],Enchantments:[{id:"minecraft:fire_aspect",lvl:2s}]}}}
+data merge entity @s {Item:{components:{"minecraft:lore":['{"color":"blue","italic":false,"text":"Medium Fire Magic"}'],"minecraft:custom_data":{gems:["orange","gemed","2"]},"minecraft:enchantment_glint_override":true}}}
+data merge entity @s {Item:{components:{"minecraft:enchantments":{levels:{"minecraft:fire_aspect":2}}}}}
 execute align xyz run kill @e[type=item,nbt={Item:{id:"minecraft:orange_glazed_terracotta"}},dx=0,dy=0,dz=0]

@@ -1,4 +1,5 @@
 #gems:cyan/bow/boom
+#1.20.5
 
 execute if score @s aux matches 1 at @s run summon creeper ~ ~ ~ {ExplosionRadius:1,Fuse:-1s,Tags:["one_time"]}
 

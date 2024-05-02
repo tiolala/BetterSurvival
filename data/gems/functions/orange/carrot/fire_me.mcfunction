@@ -1,4 +1,5 @@
 #gems:orange/carrot/fire_me
+#1.20.5
 
 scoreboard players operation POS1 param = @s index
 scoreboard players operation POS1 param *= c6 const

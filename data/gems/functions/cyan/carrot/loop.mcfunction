@@ -1,4 +1,5 @@
 #gems:cyan/carrot/loop
+#1.20.5
 
 scoreboard players set wandCloop flag 1
 

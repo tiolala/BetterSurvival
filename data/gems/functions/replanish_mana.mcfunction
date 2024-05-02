@@ -1,4 +1,5 @@
 #gems:replanish_mana
+#1.20.5
 
 tag @s remove ttag01
 function gems:metal_me

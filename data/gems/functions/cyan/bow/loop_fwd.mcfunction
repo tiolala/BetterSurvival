@@ -1,4 +1,5 @@
 #gems:cyan/bow/loop_fwd
+#1.20.5
 
 particle minecraft:campfire_cosy_smoke ~ ~ ~ 0.05 0.05 0.05 0.05 3 force
 

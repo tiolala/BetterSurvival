@@ -1,4 +1,5 @@
 #gems:cyan/bow/loop
+#1.20.5
 
 scoreboard players set bowCloop flag 1
 

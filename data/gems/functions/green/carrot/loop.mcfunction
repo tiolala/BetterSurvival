@@ -1,4 +1,5 @@
 #gems:green/carrot/loop
+#1.20.5
 
 scoreboard players set wandBrloop flag 1
 

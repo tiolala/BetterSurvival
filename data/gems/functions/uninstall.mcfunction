@@ -1,4 +1,5 @@
 #uninstall
+#1.20.5
 
 gamerule doLimitedCrafting false
 

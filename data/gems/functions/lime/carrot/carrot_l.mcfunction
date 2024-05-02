@@ -1,6 +1,7 @@
-#gems:black/carrot/carrot_l
+#gems:lime/carrot/carrot_l
+#1.20.5
 
 execute at @s at @e[type=experience_orb, distance=..32] run summon creeper ~ ~ ~ {ExplosionRadius:3b,Fuse:-1s}
 
-execute if score @s wandmana matches 30.. run scoreboard players remove @s wandmana 30
+execute if score @s wandmana matches 20.. run scoreboard players remove @s wandmana 20
 scoreboard players set @s wandcd 5

@@ -1,6 +1,6 @@
 #gems:metal_me
-
-tag @s remove ttag01
+#1.20.5
+#tags: ttag01
 
 execute if entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:iron_helmet"}]}] run tag @s add ttag01
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:iron_chestplate"}]}] run tag @s add ttag01
