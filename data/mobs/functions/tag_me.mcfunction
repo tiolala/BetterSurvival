@@ -1,5 +1,7 @@
 #mobs:tag_me
 
+say tag
+
 execute at @s if entity @e[tag=scarecrow,distance=..32] run tp @s ~ -1000 ~
 
 execute at @s if entity @a[scores={dimentions=3}, distance=..120] unless entity @s[tag=one_time] if entity @s[type=#tags:h_overw] run function mobs:o3/tag_me
