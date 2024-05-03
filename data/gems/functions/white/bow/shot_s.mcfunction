@@ -1,4 +1,5 @@
 #gems:white/bow/shot_s
+#1.20.5
 
 tag @e[tag=ttag01] remove ttag01
 

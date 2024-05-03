@@ -1,4 +1,5 @@
 #gems:purple/pull_item
+#1.20.5
 
 tag @e[tag=ttag02] remove ttag02
 execute at @s facing entity @e[tag=ttag01,limit=1] feet run summon marker ^ ^ ^1 {Tags: ["ttag02"]}

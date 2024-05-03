@@ -1,5 +1,5 @@
 #efct:freeze/here
-
+#1.20.5
 
 execute if block ~ ~ ~ minecraft:packed_ice run setblock ~ ~ ~ minecraft:blue_ice
 execute if block ~ ~ ~ minecraft:ice run setblock ~ ~ ~ minecraft:packed_ice

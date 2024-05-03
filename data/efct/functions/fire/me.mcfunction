@@ -1,4 +1,5 @@
 #efct:fire/me
+#1.20.5
 
 execute store result score @s count run data get entity @s Fire
 execute if score @s count > POS1 param run scoreboard players reset POS1 param

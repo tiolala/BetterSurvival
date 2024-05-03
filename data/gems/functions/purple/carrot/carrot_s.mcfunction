@@ -1,4 +1,5 @@
 #gems:purple/carrot/carrot_s
+#1.20.5
 
 tag @e[tag=unfinished] remove unfinished
 execute anchored eyes run summon minecraft:marker ^ ^ ^3 {Tags:["unfinished","gem_purple", "wandshot"]}
@@ -9,5 +10,5 @@ tag @e[tag=unfinished] remove unfinished
 
 execute unless score wandPploop flag matches 1 run function gems:purple/carrot/loop
 
-execute if score @s wandmana matches 10.. run scoreboard players remove @s wandmana 10
+execute if score @s wandmana matches 20.. run scoreboard players remove @s wandmana 20
 scoreboard players set @s wandcd 5

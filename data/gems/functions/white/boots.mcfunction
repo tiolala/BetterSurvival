@@ -1,4 +1,5 @@
 #gems:white/boots
+#1.20.5
 
 effect give @s slow_falling 3
 

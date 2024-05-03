@@ -1,4 +1,5 @@
 #efct:green/croops_here
+#1.20.5
 
 execute if block ~ ~ ~ minecraft:wheat[age=6] run setblock ~ ~ ~ minecraft:wheat[age=7]
 execute if block ~ ~ ~ minecraft:wheat[age=5] run setblock ~ ~ ~ minecraft:wheat[age=6]

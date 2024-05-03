@@ -1,4 +1,5 @@
 #gems:red/carrot/lava_here
+#1.20.5
 
 execute if block ~ ~ ~ minecraft:lava positioned ^ ^ ^-0.2 run setblock ~ ~ ~ minecraft:lava
 execute if block ~ ~ ~ minecraft:magma_block run setblock ~ ~ ~ minecraft:lava

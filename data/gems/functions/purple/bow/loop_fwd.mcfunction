@@ -1,4 +1,5 @@
 #gems:purple/bow/loop_fwd
+#1.20.5
 
 particle minecraft:dragon_breath ~ ~ ~ 0.05 0.05 0.05 0.05 3 force
 

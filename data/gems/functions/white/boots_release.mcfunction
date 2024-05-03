@@ -1,6 +1,5 @@
 #gems:white/boots_release
-
-
+#1.20.5
 
 execute if score @s snk_hld_w matches 2..20 run effect give @s levitation 1 3
 execute if score @s snk_hld_w matches 21..35 run effect give @s levitation 1 15

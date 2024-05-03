@@ -1,4 +1,5 @@
 #efct:freeze/me
+#1.20.5
 
 execute at @s run function efct:freeze/here
 execute at @s positioned ~ ~-1 ~ run function efct:freeze/here

@@ -1,4 +1,5 @@
 #gems:red/carrot/loop
+#1.20.5
 
 scoreboard players set wandRloop flag 1
 

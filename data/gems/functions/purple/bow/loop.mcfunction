@@ -1,4 +1,5 @@
 #gems:purple/bow/loop
+#1.20.5
 
 scoreboard players set bowPploop flag 1
 

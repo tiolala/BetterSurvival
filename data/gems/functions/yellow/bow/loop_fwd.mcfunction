@@ -1,4 +1,5 @@
 #gems:yellow/bow/loop_fwd
+#1.20.5
 
 particle minecraft:electric_spark ~ ~ ~ 0.1 0.1 0.1 0.1 3 force
 

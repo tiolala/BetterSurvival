@@ -1,4 +1,6 @@
 #gems:white/gemming/bow_l
+#1.20.5
 
-data merge entity @s {Item:{tag:{display:{Lore:['{"text":"Large White Gem"}']},gems:["white","gemed","3"],Enchantments:[{id:"minecraft:punch",lvl:2s}]}}}
+data merge entity @s {Item:{components:{"minecraft:lore":['{"color":"blue","italic":false,"text":"Large Air Magic"}'],"minecraft:custom_data":{gems:["white","gemed","3"]},"minecraft:enchantment_glint_override":true}}}
+data merge entity @s {Item:{components:{"minecraft:enchantments":{levels:{"minecraft:punch":3}}}}}
 execute align xyz run kill @e[type=item,nbt={Item:{id:"minecraft:white_glazed_terracotta"}},dx=0,dy=0,dz=0]
