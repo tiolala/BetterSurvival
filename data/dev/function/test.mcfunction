@@ -1,3 +1,3 @@
 #dev:test
 
-tp @s ~ ~1 ~ 
+tp @s ~ ~1 ~
