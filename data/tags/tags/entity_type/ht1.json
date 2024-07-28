@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values":[
+        "minecraft:bogged",
         "minecraft:cave_spider",
         "minecraft:enderman",
         "minecraft:spider",

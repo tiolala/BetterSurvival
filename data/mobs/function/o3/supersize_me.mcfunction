@@ -21,6 +21,7 @@ execute if entity @s[type=pillager] run function mobs:o3/supersize_pillager
 execute if entity @s[type=evoker] run function mobs:o3/supersize_evoker
 execute if entity @s[type=ravager] run function mobs:o3/supersize_ravager
 execute if entity @s[type=guardian] run function mobs:o3/supersize_guardian
+execute if entity @s[type=bogged] run function mobs:o3/supersize_bogged
 
 execute if entity @s[type=#tags:ht1] run data modify entity @s DeathLootTable set value "mobs:small_soul"
 execute if entity @s[type=#tags:ht2] run data modify entity @s DeathLootTable set value "mobs:medium_soul"

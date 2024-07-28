@@ -1,5 +1,6 @@
 #mobs:o2/supersize_me
 
+execute if entity @s[type=bogged] run function mobs:o2/supersize_bogged
 execute if entity @s[type=zombie] run function mobs:o2/supersize_zombie
 execute if entity @s[type=zombie_villager] run function mobs:o2/supersize_zombie
 execute if entity @s[type=skeleton] run function mobs:o2/supersize_skeleton
